@@ -1,0 +1,40 @@
+\contentsline {chapter}{머리말}{i}{chapter*.2}%
+\contentsline {chapter}{차~례}{ii}{chapter*.3}%
+\contentsline {chapter}{\chapternumberline {제\,1\,장}뉴턴 역학 (Newtonian Mechanics)}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}개요}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}뉴턴 운동 법칙 (Newton's Laws of Motion)}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}좌표계 (Frame of Reference)}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}운동 방정식 (The Equation of Motion)}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}보존 법칙 (Conservation Theorems)}{5}{section.1.5}%
+\contentsline {section}{\numberline {1.6}에너지와 평형 (Energy and Equilibrium)}{8}{section.1.6}%
+\contentsline {chapter}{\chapternumberline {제\,2\,장}진동 (Oscillations)}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}개요}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}단순 조화 진동 (Simple Harmonic Oscillations)}{10}{section.2.2}%
+\contentsline {section}{\numberline {2.3}위상도 (Phase Diagrams)}{14}{section.2.3}%
+\contentsline {section}{\numberline {2.4}감쇠 조화 진동 (Damped Harmonic Oscillations)}{15}{section.2.4}%
+\contentsline {section}{\numberline {2.5}사인형 구동력 (Sinusoidal Driving Forces)}{21}{section.2.5}%
+\contentsline {section}{\numberline {2.6}푸리에 급수 (Fourier Series)}{25}{section.2.6}%
+\contentsline {section}{\numberline {2.7}강제 조화 진동 (Driven Harmonic Oscillations)}{30}{section.2.7}%
+\contentsline {chapter}{\chapternumberline {제\,3\,장}비선형 진동과 카오스 (Nonlinear Oscillations and Chaos)}{36}{chapter.3}%
+\contentsline {section}{\numberline {3.1}개요}{36}{section.3.1}%
+\contentsline {section}{\numberline {3.2}비선형 진동 (Nonlinear Oscillations)}{37}{section.3.2}%
+\contentsline {section}{\numberline {3.3}평면 진자 (Plane Pendulum)}{37}{section.3.3}%
+\contentsline {section}{\numberline {3.4}섭동론 (Perturbation Theory)}{41}{section.3.4}%
+\contentsline {section}{\numberline {3.5}비선형계의 위상도 (Phase Diagrams for Nonlinear Systems)}{44}{section.3.5}%
+\contentsline {section}{\numberline {3.6}더핑 진동자 (Duffing Oscillators)}{47}{section.3.6}%
+\contentsline {chapter}{\chapternumberline {제\,4\,장}중력 (Gravitation)}{50}{chapter.4}%
+\contentsline {section}{\numberline {4.1}개요}{50}{section.4.1}%
+\contentsline {section}{\numberline {4.2}중력 퍼텐셜 (Gravitational Potential)}{51}{section.4.2}%
+\contentsline {section}{\numberline {4.3}구각 정리 (Shell Theorem)}{53}{section.4.3}%
+\contentsline {section}{\numberline {4.4}조석력 (Tidal Forces)}{56}{section.4.4}%
+\contentsline {chapter}{\chapternumberline {제\,5\,장}변분법 (Calculus of Variations)}{61}{chapter.5}%
+\contentsline {section}{\numberline {5.1}개요}{61}{section.5.1}%
+\contentsline {section}{\numberline {5.2}변분법의 기본 보조정리 (Fundamental Lemma of Calculus of Variations)}{61}{section.5.2}%
+\contentsline {section}{\numberline {5.3}오일러-라그랑주 방정식 (Euler-Lagrange Equation)}{62}{section.5.3}%
+\contentsline {section}{\numberline {5.4}벨트라미 항등식 (Beltrami Identity)}{66}{section.5.4}%
+\contentsline {section}{\numberline {5.5}구속 방정식 (Equations of Constraint)}{71}{section.5.5}%
+\contentsline {section}{\numberline {5.6}델타 표기법 (The Delta Notation)}{76}{section.5.6}%
+\contentsline {chapter}{\chapternumberline {제\,6\,장}라그랑주 역학 (Lagrangian Mechanics)}{77}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {제\,7\,장}해밀턴 역학 (Hamiltonian Mechanics)}{78}{chapter.7}%
+\contentsline {chapter}{\chapternumberline {제\,8\,장}중심력과 천체역학 (Central Forces and Celestial Mechanics)}{79}{chapter.8}%
+\contentsline {chapter}{\chapternumberline {제\,9\,장}입자계의 운동역학 (Dynamics of a System of Particles)}{80}{chapter.9}%
