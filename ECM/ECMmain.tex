@@ -1915,7 +1915,7 @@ m이다. 물론 조수간만의 차는 지형의 영향을 크게 받기 때문�
         \frac{1}{\sqrt{y}\sqrt{1+{y'}^2}} = C
         \label{eq:5.30}
     \end{equation}
-    가 된다. 이때 $C$는 임의의 상수이다. 식 \ref{eq:5.30}를 정리하면
+    가 된다. 이때 $C$는 임의의 상수이다. 식 \ref{eq:5.30}을 정리하면
     \begin{equation}
         \begin{aligned}
             1+{y'}^2 &= \frac{1}{C^2 y} \\
@@ -2040,7 +2040,7 @@ m이다. 물론 조수간만의 차는 지형의 영향을 크게 받기 때문�
             \cot{\theta} &= K\sin{(\phi_0 - \phi)}
         \end{aligned}
     \end{equation}
-    로 간결하게 쓸 수 있다. 이때 $K$는 $K \equiv (\sqrt{1-C^2} / C^2)$으로 정의되는 상수이다. 구면좌표계를 직교좌표계로 바꾸기 위해 양변에 $r\sin{\theta}$를 곱하면
+    가 된다. 이때 $K$는 $K \equiv (\sqrt{1-C^2} / C^2)$으로 정의되는 상수이다. 구면좌표계를 직교좌표계로 바꾸기 위해 양변에 $r\sin{\theta}$를 곱하면
     \begin{equation}
     \begin{aligned}
         r\cos{\theta} &= Kr\sin{\theta}\sin{(\phi_0 - \phi)} \\
@@ -2048,7 +2048,7 @@ m이다. 물론 조수간만의 차는 지형의 영향을 크게 받기 때문�
         z &= K(x\sin{\phi_0}-y\cos{\phi_0})
     \end{aligned}
     \end{equation}
-    를 얻는다. 이는 원점을 지나는 평면의 방정식이다. 한편 곡선은 처음부터 구면 위에 놓여 있으므로, 측지선은 원점을 지나는 평면과 구면의 교선인 \textbf{대원(great circle)}이 된다. 구면의 측지선은 비행기의 최적 항로 등을 잘 설명한다.
+    를 얻는다. 이는 원점을 지나는 평면의 방정식이다. 문제의 조건에 따라 곡선은 구면 위에 놓여 있으므로, 측지선은 원점을 지나는 평면과 구면의 교선인 \textbf{대원(great circle)}이 된다. 구면의 측지선은 비행기의 최적 항로 등을 잘 설명한다.
 \end{solution}
 
 \noindent\rule{\textwidth}{0.8pt} % 본문 전체 너비만큼 0.8pt 두께의 검은 줄을 긋습니다.
@@ -2079,7 +2079,7 @@ m이다. 물론 조수간만의 차는 지형의 영향을 크게 받기 때문�
         \frac{n(y)}{\sqrt{1+{y'}^2}} = const.
         \label{eq:5.48}
     \end{equation}
-    이때 빛의 진행 경로 상의 한 점이 법선과 이루는 각도를 $\theta$라고 하면, 법선은 $y$축이므로 기울기 $y'$는
+    이때 빛의 진행 경로 상의 한 점이 법선과 이루는 각도를 $\theta$라고 한다면, 법선은 $y$축이므로 기울기 $y'$은
     \begin{equation}
         y' = \tan{\left(\frac{\pi}{2}-\theta \right)} = \cot{\theta}
     \end{equation}
@@ -2108,12 +2108,12 @@ m이다. 물론 조수간만의 차는 지형의 영향을 크게 받기 때문�
 \begin{equation}
     g : x^2 + y^2 + z^2 - r^2 = 0
 \end{equation}
-처럼 말이다. 이제 우리가 풀고자 하는 문제는 $g=0$일 때이므로 
+처럼 말이다. 우리가 풀고자 하는 문제는 $g=0$일 때이므로 
 \begin{equation}
     \tilde{J} = \int_{x_1}^{x_2} [f(y, y' ;x) + \lambda(x)g(y, y' ;x)] \mathrm{d}x
     \label{eq:5.54}
 \end{equation}
-와 같이 새로운 범함수 $\tilde{J}$를 정의한 다음 이것의 오일러-라그랑주 방정식을 풀면 된다. 피적분함수를 새로운 함수 $F=f+\lambda g$로 생각하라. 여기서 $\lambda(x)$는 아직 정해지지 않은 함수이다. 식 \ref{eq:5.54}에 $g=0$을 대입하면 이는 원래 문제와 같음을 알 수 있다.
+와 같이 새로운 범함수 $\tilde{J}$를 정의한 다음 이것의 오일러-라그랑주 방정식을 풀면 된다. 새로운 함수 $F=f+\lambda g$를 생각하라. 여기서 $\lambda(x)$는 아직 정해지지 않은 함수이다. 식 \ref{eq:5.54}에 $g=0$을 대입하면 이는 원래 문제와 같음을 알 수 있다.
 
 $\tilde{J}$가 극값을 가진다면 $F$는 오일러-라그랑주 방정식을 만족해야 하므로, 이를 풀면
 \begin{equation}
@@ -2130,7 +2130,7 @@ $\tilde{J}$가 극값을 가진다면 $F$는 오일러-라그랑주 방정식을
     \tilde{J} = \int_{x_1}^{x_2} \left[f(y_i (x), y'_i(x) ; x) + \sum_{j=1}^{m}\lambda_j(x)g_j(y_i (x), y'_i(x) ; x) \right] \mathrm{d}x
     \label{eq:5.57}
 \end{equation}
-처럼 $y_i$와 $y'_i$에 대한 다변수함수인 경우에도 오일러-라그랑주 방정식이 성립한다. 이때는 각 변수 $y_i, y'_i, \lambda_j$에 대해 오일러-라그랑주 방정식을 적용하여
+처럼 $y_i$와 $y'_i$에 대한 다변수함수인 경우에도 오일러-라그랑주 방정식이 성립한다. 이때는 각 변수 $y_i, y'_i$에 대해 오일러-라그랑주 방정식을 적용하여
 \begin{equation}
 \begin{aligned}
     \frac{\partial f}{\partial y_i} - \frac{\mathrm{d}}{\mathrm{d}x}\frac{\partial f}{\partial y'_i} + \sum_{j=1}^{m}\lambda_j(x)\frac{\partial g_j}{\partial y_i} - \frac{\mathrm{d}}{\mathrm{d}x} \left(\sum_{j=1}^{m}\lambda_j(x)\frac{\partial g_j}{\partial y'_i} \right) = 0 \\
@@ -2138,7 +2138,7 @@ $\tilde{J}$가 극값을 가진다면 $F$는 오일러-라그랑주 방정식을
 \end{aligned}
 \label{eq:5.58}
 \end{equation}
-의 연립방정식을 풀면 된다. $i=1, 2, \dots, n$이고 $j=1, 2, \dots, m$임을 유의하라. 우리는 일반적으로 식 \ref{eq:5.58}의 윗줄로부터 $n$개의 정보를, 아랫줄로부터 $m$개의 정보를 얻어 총 $m+n$개의 미지수를 결정할 수 있다. 만약 $g_j$가 $y'$에 의존하지 않는다면 이 식은
+의 연립방정식을 풀면 된다. $i=1, 2, \dots, n$이고 $j=1, 2, \dots, m$임을 유의하라. 항상 그렇지는 않지만, 우리는 보통 식 \ref{eq:5.58}의 윗줄로부터 $n$개의 정보를, 아랫줄로부터 $m$개의 정보를 얻어 총 $m+n$개의 미지수를 결정할 수 있다. 만약 $g_j$가 $y'$에 의존하지 않는다면 이 식은
 \begin{equation}
 \begin{aligned}
     \frac{\partial f}{\partial y_i} - \frac{\mathrm{d}}{\mathrm{d}x}\frac{\partial f}{\partial y'_i} + \sum_{j=1}^{m}\lambda(x)_j\frac{\partial g_j}{\partial y_i} = 0 \\
@@ -2154,7 +2154,7 @@ $\tilde{J}$가 극값을 가진다면 $F$는 오일러-라그랑주 방정식을
 \begin{equation}
     \mathrm{d}g = \sum_{j=1}^{m} \frac{\partial g_j}{\partial y_i} \mathrm{d}y_i = 0
 \end{equation}
-을 얻는다. 이는 구속 방정식이 미분방정식인 경우 식 \ref{eq:5.59}의 아랫줄을 푸는 것보다 종종 더 간단한 풀이를 제공한다.
+이 성립한다. 이는 구속 방정식이 미분방정식인 경우 식 \ref{eq:5.59}의 아랫줄을 푸는 것보다 종종 더 간단한 풀이를 제공한다.
 
 \begin{examplebox}{예제 5.7}
 \begin{example}
@@ -2198,7 +2198,7 @@ $\tilde{J}$가 극값을 가진다면 $F$는 오일러-라그랑주 방정식을
     g : \int_{x_1}^{x_2} h(y, y'; x) \mathrm{d}x - C = 0
     \label{eq:5.66}
 \end{equation}
-처럼 말이다. 이제 우리가 풀고자 하는 문제는 $g=0$일 때이므로
+처럼 말이다. 우리가 풀고자 하는 문제는 $g=0$일 때이므로
 \begin{equation}
     \tilde{J} = \int_{x_1}^{x_2} f(y, y' ;x)\mathrm{d}x + \lambda g(y, y';x)
     \label{eq:5.64}
@@ -2249,7 +2249,7 @@ $\lambda C$는 $y$에 의존하지 않으므로 $y$에 대한 변분에 영향�
     \begin{equation}
         {(x-C_1)}^2 + {(y-C_2)}^2 = \lambda^2
     \end{equation}
-    인 원의 방정식으로 쓸 수 있다. 즉, 주어진 구속 방정식 하에서 넓이를 최대로 만드는 도형은 반원이다. 반원의 반지름은 $\lambda = (l/\pi)$이므로 A의 최댓값은 $(l^2/2 \pi)$이다. 이 문제는 카르타고의 여왕 디도의 문제(Dido problem)로 알려져 있다.
+    인 원의 방정식으로 쓸 수 있다. 즉, 주어진 구속 방정식 하에서 넓이를 최대로 만드는 도형은 반원이다. 반지름이 $\lambda = (l/\pi)$이므로 A의 최댓값은 $(l^2/2 \pi)$이다. 이 문제는 카르타고의 여왕 디도의 문제(Dido problem)로 알려져 있다.
 \end{solution}
 
 \noindent\rule{\textwidth}{0.8pt} % 본문 전체 너비만큼 0.8pt 두께의 검은 줄을 긋습니다.
@@ -2257,7 +2257,40 @@ $\lambda C$는 $y$에 의존하지 않으므로 $y$에 대한 변분에 영향�
 
 %여기서부터 overleaf 수정 필요, 2026-10-17$
 \section{델타 표기법 (The Delta Notation)}
-우리는 지금까지 변분법에 대해 배웠다. 이
+변분법을 나타낼 때, 우리는 관습적으로
+\begin{equation}
+    \delta y = \frac{\partial y}{\partial{\alpha}} \mathrm{d}\alpha
+\end{equation}
+처럼 $\delta$ 표기법을 사용한다. 이때 $\delta y$는 $y$의 변분(variation)이라고 한다. 변분은 미분과 비슷하지만, $\delta$는 $y$의 변화를 나타내며 $x$는 고정되어 있다. 즉, $\delta y(x)$는 $x$가 고정된 상태에서 $y$가 어떻게 변하는지를 나타낸다. 이는 우리가 변분을 정의할 때 사용한 개념과 일치한다.
+
+변분을 통해 오일러-라그랑주 방정식을 다시 쓰자. 식 \ref{eq:5.12}의 양변에 $\mathrm{d}a$를 곱하고 $\eta(x) = \partial{y} / \partial{\alpha}$를 대입하면
+\begin{equation}
+    \delta J = \int_{x_1}^{x_2} \left(\frac{\partial f}{\partial y} - \frac{\mathrm{d}}{\mathrm{d}x}\frac{\partial f}{\partial y'}\right) \delta y \mathrm{d}x
+\end{equation}
+을 얻는다. 만약 $J$가 극값을 가진다면, $\delta J = 0$이므로 다음은 모두 동치가 된다.
+\begin{equation}
+    \delta J = 0 \iff \int_{x_1}^{x_2} \left(\frac{\partial f}{\partial y} - \frac{\mathrm{d}}{\mathrm{d}x}\frac{\partial f}{\partial y'}\right) \delta y \mathrm{d}x = 0 \iff \frac{\partial f}{\partial y} - \frac{\mathrm{d}}{\mathrm{d}x}\frac{\partial f}{\partial y'} = 0
+\end{equation}
+증명할 수도 있다. 함수 $f(y, y';x)$의 변분은
+\begin{equation}
+    \begin{aligned}
+        \delta f &= \frac{\partial f}{\partial y} \frac{\partial y}{\partial \alpha} \mathrm{d}\alpha + \frac{\partial f}{\partial y'} \frac{\partial y'}{\partial \alpha} \mathrm{d}\alpha = \frac{\partial f}{\partial y} \delta y + \frac{\partial f}{\partial y'} \delta y' \\
+    \end{aligned}
+\end{equation}
+이고
+\begin{equation}
+    \delta y' = \frac{\partial}{\partial x} \left(\frac{\partial y}{\partial \alpha} \mathrm{d}\alpha \right) = \frac{\partial}{\partial x} (\delta y) = (\delta y)'
+\end{equation}
+이므로 오일러-라그랑주 방정식은
+\begin{equation}
+    \begin{aligned}
+    \delta J &= \int_{x_1}^{x_2} \delta f \mathrm{d}x =\int_{x_1}^{x_2} \left(\frac{\partial f}{\partial y} \delta y + \frac{\partial f}{\partial y'} (\delta y)' \right) \mathrm{d}x \\
+    &= \int_{x_1}^{x_2} \left(\frac{\partial f}{\partial y} \delta y + \frac{\mathrm{d}}{\mathrm{d}x}\left[\frac{\partial f}{\partial y'} \delta y\right] - \frac{\mathrm{d}}{\mathrm{d}x}\frac{\partial f}{\partial y'} \delta y \right) \mathrm{d}x \\
+    &= \int_{x_1}^{x_2} \left(\frac{\partial f}{\partial y} - \frac{\mathrm{d}}{\mathrm{d}x}\frac{\partial f}{\partial y'}\right) \delta y \mathrm{d}x + {\left. \frac{\partial f}{\partial y'} \delta y \right|}_{x_1}^{x_2} \\
+    &= \int_{x_1}^{x_2} \left(\frac{\partial f}{\partial y} - \frac{\mathrm{d}}{\mathrm{d}x}\frac{\partial f}{\partial y'}\right) \delta y \mathrm{d}x
+    \end{aligned}
+\end{equation}
+와 같이 얻어진다.
 
 \newpage
 % Chapter 6 시작

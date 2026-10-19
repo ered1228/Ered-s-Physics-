@@ -34,7 +34,7 @@
 \contentsline {section}{\numberline {5.4}벨트라미 항등식 (Beltrami Identity)}{66}{section.5.4}%
 \contentsline {section}{\numberline {5.5}구속 방정식 (Equations of Constraint)}{71}{section.5.5}%
 \contentsline {section}{\numberline {5.6}델타 표기법 (The Delta Notation)}{76}{section.5.6}%
-\contentsline {chapter}{\chapternumberline {제\,6\,장}라그랑주 역학 (Lagrangian Mechanics)}{77}{chapter.6}%
-\contentsline {chapter}{\chapternumberline {제\,7\,장}해밀턴 역학 (Hamiltonian Mechanics)}{78}{chapter.7}%
-\contentsline {chapter}{\chapternumberline {제\,8\,장}중심력과 천체역학 (Central Forces and Celestial Mechanics)}{79}{chapter.8}%
-\contentsline {chapter}{\chapternumberline {제\,9\,장}입자계의 운동역학 (Dynamics of a System of Particles)}{80}{chapter.9}%
+\contentsline {chapter}{\chapternumberline {제\,6\,장}라그랑주 역학 (Lagrangian Mechanics)}{78}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {제\,7\,장}해밀턴 역학 (Hamiltonian Mechanics)}{79}{chapter.7}%
+\contentsline {chapter}{\chapternumberline {제\,8\,장}중심력과 천체역학 (Central Forces and Celestial Mechanics)}{80}{chapter.8}%
+\contentsline {chapter}{\chapternumberline {제\,9\,장}입자계의 운동역학 (Dynamics of a System of Particles)}{81}{chapter.9}%
