@@ -56,11 +56,9 @@
 
 이 책에서 우리가 다룰 마법은 고전역학(Classical Mechanics)이다. 고전역학은 일상적인 규모를 가진 물체들이 상호작용할 때 나타나는 운동을 기술하는 물리학으로, 전자기학과 양자역학 등 다른 물리학의 기초가 된다.
 
-고전역학의 목적은 특정 조건이 주어졌을 때 물체의 운동을 완벽히 예측하는 것이다. 따라서 고전역학은 결정론적이고 가역적이다. 이 책은 많은 역학적 계의 움직임을 예측하고 방정식으로 기술할 것이다.
-
 고전역학의 접근 방식으로는 아이작 뉴턴(Issac Newton, 1643-1727)이 정립한 뉴턴 역학을 비롯하여 조제프-루이 라그랑주(Joseph-Louis Lagrange, 1736-1813)의 라그랑주 역학, 윌리엄 로원 해밀턴(Sir William Rowan Hamilton, 1805-1865)의 해밀턴 역학이 있다. 이 책은 이러한 접근 방식을 활용하여 고전역학의 핵심 개념들을 다룰 것이다. 
 
-이 책을 읽기 위한 선행 지식은 미적분학과 일반물리학이다. 미분방정식과 선형대수학 역시 알고 있다면 좋다. 하지만 무엇보다, 마도서 컨셉으로 쓰인 이 책을 부담 없이 받아들일 수 있는 아량을 갖추고 있다면 더할 나위 없이 좋을 것이다.
+이 책을 읽기 위한 선행 지식은 미적분학과 일반물리학이다. 미분방정식과 선형대수학 역시 알고 있다면 좋다. 또한 난이도가 높은 부분에는 별(*) 표시를 달아 놓았으니 참고하면 좋다. 하지만 무엇보다, 마도서 컨셉으로 쓰인 이 책을 부담 없이 받아들일 수 있는 넓은 아량을 갖추고 있다면 더할 나위 없을 것이다.
 
 이 책은 엄밀하지 못한 설명이 포함되어 있다. 정확한 증명과 깊이 있는 물리학적 논의가 필요하다면, 다른 좋은 마도서들을 확인하기 바란다.
 
@@ -176,7 +174,7 @@
     으로 바뀌고, 이 미분방정식은
     \begin{equation}
         \begin{aligned}
-            \int\frac{dv'}{v'} &= -k \,\int \mathrm{d}t \\ \ln(v') &= -kt + C_1 \\ \ln(v-\frac{g}{k}) &= -kt+C_1 \\ v &=  \frac{g}{k} + e^{-kt+C_1} \label{eq:1.10}
+            \int\frac{dv'}{v'} &= -k \,\int \mathrm{d}t \\ \ln(v') &= -kt + C_1 \\ \ln(v-\frac{g}{k}) &= -kt+C_1 \\ v &=  \frac{g}{k} + e^{-kt+C_1}
         \end{aligned}
     \end{equation}
     처럼 풀린다. 초기 속도 $v(t=0)$는 $v_0$이므로 $C_1 = \ln(v_0-g/k)$이다. 따라서 속도는
@@ -398,7 +396,7 @@ $\delta$와 $\pi$는 서로 $\pi/2$만큼 차이가 난다. 따라서 식 \ref{e
 \end{examplebox}
 
 \begin{solution}
-    우리는 실의 질량과 추의 크기를 무시한다. 자유물체도를 그려보자. 공에 작용하는 힘은 중력 $mg$와 장력이며, 실이 늘어나거나 줄어들지 않으므로 장력의 크기는 $mg\cos{\theta}$이다. 따라서 진자 운동에 기여하는 힘은 $mg\sin{\theta}$의 크기를 가지며 회전각 $\theta$를 줄이려는 방향으로 작용하는 중력 분력이다. 이제 토크를 분석하자. 앞선 논의에 따라 추에 작용하는 토크는 $-mgl\sin{\theta}$이다. 토크는 관성 모멘트와 각가속도의 곱으로 나타낼 수 있고, 추의 관성 모멘트는 $ml^2$이므로, 운동 방정식은
+    우리는 실의 질량과 추의 크기를 무시한다. 자유물체도를 그려보자. 추에 작용하는 힘은 중력 $mg$와 장력이며, 중력은 $mg\sin{\theta}$의 크기를 가지며 회전각 $\theta$를 줄이려는 방향으로 작용하는 토크 $-mgl\sin{\theta}$를 만든다. 한편 토크는 관성 모멘트와 각가속도의 곱으로 나타낼 수 있고, 추의 관성 모멘트는 $ml^2$이므로 운동 방정식은
     \begin{equation}
         ml^2\ddot{\theta}=-mgl\sin{\theta} \label{eq:2.12}
     \end{equation}
@@ -406,7 +404,7 @@ $\delta$와 $\pi$는 서로 $\pi/2$만큼 차이가 난다. 따라서 식 \ref{e
     \begin{equation}
         \ddot{\theta} + \frac{g}{l}\theta = 0 \label{eq:2.13}
     \end{equation}
-    이다. 이는 단순 조화 진동자의 운동 방정식이므로, 식 \ref{eq:2.10}을 통해 주기를 구하면
+    이다. 이는 단순 조화 진동자의 운동 방정식이다. 따라서 식 \ref{eq:2.10}을 통해 주기를 구하면
     \begin{equation}
         \tau_0=2\pi \sqrt{\frac{l}{g}} \label{eq:2.14}
     \end{equation}
@@ -1191,7 +1189,7 @@ $I_n(t)$가 계에 작용하는 시간 간격 $t_{n+1}-t_n$을 $\tau$라고 하�
     \theta(t) = 2 \sin^{-1}[k \cdot {\mathrm{sn}(\sqrt{\frac{g}{l}}t ; k)]}
 \end{equation}가 된다. 운 좋게도 우리는 평면 진자의 해석적인 해를 구했지만, 일반적인 비선형계에선 해석적 해법이 없을 수도 있다.\footnote{정확히 말하자면, 평면 진자는 자유도가 1개($\theta$)인 계이며 에너지 보존 법칙에 따라 1개의 보존량이 있으므로 Liouville-Arnold Theorem에 따라 해석적 해법이 존재한다. 하지만 당연하게도 모든 비선형계가 이렇지는 않다.}
 
-\section{섭동론 (Perturbation Theory)}
+\section{섭동론 (Perturbation Theory)*}
 \textbf{섭동론(perturbation theory)}은 정확한 해를 찾을 수 없는 문제의 근사해를 구하기 위해 고안된 수학적 기법이다. 섭동론은 쉽게 풀 수 있는 문제부터 시작하여, 문제 상황에 작은 섭동이 추가될 때마다 해가 어떻게 변하는지를 관찰한다. 예를 들어 태양을 공전하는 지구와 지구를 공전하는 달을 고려하는 경우, 섭동론은 먼저 태양 주변을 공전하는 지구의 움직임을 구한 뒤 달의 공전으로 인한 지구의 움직임의 변화를 더해 주는 것으로 해를 근사한다.
 
 어떤 물리 변수 $x$를 멱급수 형태로
@@ -1732,7 +1730,7 @@ m이다. 물론 조수간만의 차는 지형의 영향을 크게 받기 때문�
     J = \int_{x_1}^{x_2} f(y, y' ; x) \mathrm{d}x
     \label{eq:5.4}
 \end{equation}
-이 범함수 $J$가 극값을 가질 조건은
+이 범함수 $J$가 극값을 가질 필요조건은
 \begin{equation}
     \frac{\partial f}{\partial y} - \frac{\mathrm{d}}{\mathrm{d}x}\frac{\partial f}{\partial y} = 0
     \label{eq:5.5}
@@ -2121,7 +2119,7 @@ $\tilde{J}$가 극값을 가진다면 $F$는 오일러-라그랑주 방정식을
 \end{equation}
 을 얻는다. 이것이 끝이다. 특히 많은 문제에선 $g$가 $y'$에 의존하지 않으므로\footnote{이를 홀로노믹 구속 조건(holonomic constraint)이라고 한다. 일반적으로 홀로노믹 구속 조건은 위치 $y$와 독립변수 $x$만으로 표현되는 구속 조건을 말한다. 다만 속도 $y'$에 의존하는 구속 조건도 적분 가능하다면 홀로노믹일 수 있다. 이 용어는 6장과 7장에서 다시 등장할 것이다.}
 \begin{equation}
-     \frac{\partial f}{\partial y} - \frac{\mathrm{d}}{\mathrm{d}x}\frac{\partial f}{\partial y'} + \lambda(x)\frac{\partial g}{\partial y} = 0
+     \frac{\partial f}{\partial y} - \frac{\mathrm{d}}{\mathrm{d}x}\frac{\partial f}{\partial y'} + \lambda(x)\frac{\partial g}{\partial y} = 0 \label{eq:5.56}
 \end{equation}
 가 성립한다. 이것이 바로 일반형 구속 방정식이 주어진 오일러-라그랑주 방정식의 형태이다. 여기서 $\lambda(x)$는 라그랑주 승수의 역할을 한다.
 
@@ -2255,13 +2253,12 @@ $\lambda C$는 $y$에 의존하지 않으므로 $y$에 대한 변분에 영향�
 \noindent\rule{\textwidth}{0.8pt} % 본문 전체 너비만큼 0.8pt 두께의 검은 줄을 긋습니다.
 \vspace{1em} % 줄 아래에 약간의 여백을 줍니다.
 
-%여기서부터 overleaf 수정 필요, 2026-10-17$
 \section{델타 표기법 (The Delta Notation)}
-변분법을 나타낼 때, 우리는 관습적으로
+변분법을 나타낼 때 우리는 관습적으로
 \begin{equation}
     \delta y = \frac{\partial y}{\partial{\alpha}} \mathrm{d}\alpha
 \end{equation}
-처럼 $\delta$ 표기법을 사용한다. 이때 $\delta y$는 $y$의 변분(variation)이라고 한다. 변분은 미분과 비슷하지만, $\delta$는 $y$의 변화를 나타내며 $x$는 고정되어 있다. 즉, $\delta y(x)$는 $x$가 고정된 상태에서 $y$가 어떻게 변하는지를 나타낸다. 이는 우리가 변분을 정의할 때 사용한 개념과 일치한다.
+와 같은 $\delta$ 표기법을 사용한다. 이때 $\delta y$는 $y$의 변분(variation)이라고 한다. 변분은 미분과 비슷하지만, $\delta$ 표기는 $y$의 변화를 나타내며 $x$는 고정되어 있다는 사실을 의미한다. 즉, $\delta y(x)$는 $x$가 고정된 상태에서 $y$가 어떻게 변하는지를 나타낸다. 기하적인 관점에서 보자면 $\delta y$는 미소 변위를 뜻한다. 즉, 원래 경로에서 아주 살짝 벗어난 경로와의 차이를 $\delta y$라고 하는 것이다. $\delta y$ 만큼의 미소 변위가 있을 때 범함수 $J$의 차이는 $\delta J$로 표현된다. 
 
 변분을 통해 오일러-라그랑주 방정식을 다시 쓰자. 식 \ref{eq:5.12}의 양변에 $\mathrm{d}a$를 곱하고 $\eta(x) = \partial{y} / \partial{\alpha}$를 대입하면
 \begin{equation}
@@ -2271,7 +2268,7 @@ $\lambda C$는 $y$에 의존하지 않으므로 $y$에 대한 변분에 영향�
 \begin{equation}
     \delta J = 0 \iff \int_{x_1}^{x_2} \left(\frac{\partial f}{\partial y} - \frac{\mathrm{d}}{\mathrm{d}x}\frac{\partial f}{\partial y'}\right) \delta y \mathrm{d}x = 0 \iff \frac{\partial f}{\partial y} - \frac{\mathrm{d}}{\mathrm{d}x}\frac{\partial f}{\partial y'} = 0
 \end{equation}
-증명할 수도 있다. 함수 $f(y, y';x)$의 변분은
+이를 바탕으로 오일러-라그랑주 방정식을 유도하면 다음과 같다. 함수 $f(y, y';x)$의 변분은
 \begin{equation}
     \begin{aligned}
         \delta f &= \frac{\partial f}{\partial y} \frac{\partial y}{\partial \alpha} \mathrm{d}\alpha + \frac{\partial f}{\partial y'} \frac{\partial y'}{\partial \alpha} \mathrm{d}\alpha = \frac{\partial f}{\partial y} \delta y + \frac{\partial f}{\partial y'} \delta y' \\
@@ -2292,13 +2289,429 @@ $\lambda C$는 $y$에 의존하지 않으므로 $y$에 대한 변분에 영향�
 \end{equation}
 와 같이 얻어진다.
 
+$\delta$ 표기법은 변분법에 대한 간단한 표현을 제공하지만, 수학적으로 완전히 엄밀하지는 않다.
+
 \newpage
 % Chapter 6 시작
 \chapter{라그랑주 역학 (Lagrangian Mechanics)}
 
+\section{해밀턴의 원리 (Hamilton's Principle)}
+우리는 5장에서 최적화 문제를 다루기 위해 변분법을 배웠다. 이제는 물리학에 최적화 문제를 적용할 차례다. 자연은 무엇을 최적화하는가? 먼저 다음과 같이 \textbf{라그랑지안(Lagrangian)}이라는 물리량을 정의하자.
+\begin{equation}
+    \mathcal{L} \equiv T - U
+\end{equation}
+여기서 $T$는 계의 운동 에너지이며 $U$는 퍼텐셜 에너지이다.\footnote{라그랑지안의 정확한 정의는 이보다 더 복잡하다. 라그랑지안은 후술할 해밀턴의 원리에 따라, 오일러-라그랑주 방정식을 통해 계의 운동 방정식을 이끌어낼 수 있는 물리량으로 정해지는 경우가 많다. 즉, 라그랑지안이 더 근본적인 물리량이고 최소 작용의 원리에 따라 각종 운동 방정식들이 도출된다고 보는 것이 좋다.} 이제 계를 이루는 $i$번째 입자의 위치를 $q_i$라고 하면 라그랑지안은 $\mathcal{L} = \mathcal{L}(q, \dot{q_i} ; t)$의 함수가 된다. 따라서 라그랑지안의 시간 적분
+\begin{equation}
+    S \equiv \int_{t1}^{t2} \mathcal{L}(q, \dot{q_i} ; t) \mathrm{d}t
+\end{equation}
+은 범함수가 되며, 이를 \textbf{작용(action)}이라고 한다. 자연은 작용을 최적화한다.
+
+놀랍지 않은가? 모든 물리학적 문제는 작용의 최적화라는 단 하나의 원리로 기술된다. 우리는 이 마법이나 다름없는 원리를 \textbf{해밀턴의 원리(Hamilton's principle)} 혹은 \textbf{최소 작용의 원리(principle of least action)}라고 부른다.
+
+최소(least) 작용의 원리는 실제로는 정적(stationary) 작용의 원리를 나타냄을 유의하라. $S$가 최솟값을 가진다면 $\delta S = 0$이지만, $\delta S = 0$이라면 $S$는 최솟값이 아니라 정류값(stationary value)을 가진다. 대부분의 물리적 상황은 작용의 최솟값을 보장하지만, 그렇지 않은 경우 우리는 작용의 최소화를 확인하기 위해 몇 가지 절차를 더 거쳐야 한다. 6.2절을 참고하라.
+
+라그랑주 역학은 해밀턴의 원리와 라그랑지안을 통해 계를 기술한다. 라그랑주 역학에서 필요한 것은 계의 처음 상태와 마지막 상태에 대한 정보이다. 이들만 있으면, 우리는 변분법에 따라 라그랑지안에 대한 오일러-라그랑주 방정식
+\begin{equation}
+    \frac{\partial \mathcal{L}}{\partial q_i} - \frac{\mathrm{d}}{\mathrm{d}t}\frac{\partial \mathcal{L}}{\partial \dot{q_i}} = 0
+    \label{eq:6.3}
+\end{equation}
+을 풀어 계의 운동 방정식을 구할 수 있다.
+
+\begin{examplebox}{예제 6.1}
+\begin{example}
+1차원 단순 조화 진동자의 운동 방정식을 라그랑주 역학으로 구하여라.
+\end{example}
+\end{examplebox}
+
+\begin{solution}
+    계의 라그랑지안은 다음과 같다.
+    \begin{equation}
+        \mathcal{L} = T - U = \frac{1}{2}m\dot{x}^2 - \frac{1}{2}kx^2
+    \end{equation}
+    이제 오일러-라그랑주 방정식을 풀면
+    \begin{equation}
+        m\ddot{x}+kx = 0
+    \end{equation}
+    을 얻는다. 이는 2.2절에서 본 단순 조화 진동자의 운동 방정식과 같다. 만약 계의 처음 상태와 마지막 상태에 대한 정보 $x(t_1) = x_1, x(t_2) = x_2$가 주어진다면, 우리는 계의 운동 방정식을 완벽히 풀 수 있을 것이다.
+\end{solution}
+
+\noindent\rule{\textwidth}{0.8pt} % 본문 전체 너비만큼 0.8pt 두께의 검은 줄을 긋습니다.
+\vspace{1em} % 줄 아래에 약간의 여백을 줍니다.
+
+\section{르장드르 조건 (Legendre Condition)*}
+매끄러운 함수 $f$에 대해 $f'(a) = 0$이라고 해서 $f$가 $a$에서 극값을 갖는다고 말할 수 없는 것처럼, 작용 $S$에 대해 $\delta S = 0$이라고 해서 이를 만족하는 해가 작용의 극값을 보장하는 해라고 말할 수는 없다. 작용이 정말 극값을 갖는지 확인하려면 함수의 이계도함수 판별법처럼 작용의 이차 변분 $\delta^2 S$을 구하고 부호를 판별해야 한다.
+
+물체의 위치 $q(t)$에 대해 $q(t_1) = q_1, q(t_2) = q_2$처럼 양 끝점이 고정된 경우를 생각하자. 경로에 작은 변분을 가하면 변분된 위치는 $q_{\alpha}(t) = q(t) + \alpha \eta(t)$이고, 고정된 양 끝점 때문에 $\eta(t_1) = \eta(t_2)=0$이 성립할 것이다. 이제 변분된 작용은
+\begin{equation}
+    S[q_\alpha] = \int_{t_1}^{t_2} \mathcal{L}(q+\alpha \eta, \dot{q}+\alpha \dot{\eta} ; t) \mathrm{d}t
+    \label{eq:6.6}
+\end{equation}
+를 만족한다. 한편 식 \ref{eq:6.6}을 $\alpha = 0$을 중심으로 테일러 전개하면
+\begin{equation}
+    S[q_{\alpha}] = S[q] + \alpha \delta S + \frac{1}{2} \alpha^2 \delta^2S + \mathcal{O}(\alpha^3)
+\end{equation}
+이고, $\alpha$에 대해 편미분한 1차 변분 $\delta S$로부터
+\begin{equation}
+    \delta S = \int_{t_1}^{t_2} (\mathcal{L}_q \eta + \mathcal{L}_{\dot{q}} \dot{\eta}) \mathrm{d}t
+\end{equation}
+임을 알 수 있다. 여기서 $\mathcal{L}_q$는 라그랑지안의 $q$에 대한 편미분을 나타낸 것이다. 마지막 항을 부분적분하면
+\begin{equation}
+    \int_{t_1}^{t_2} \left(\mathcal{L}_q  - \frac{\mathrm{d}}{\mathrm{d}t}\mathcal{L}_{\dot{q}} \right) \eta \mathrm{d}t
+    \label{eq:6.9}
+\end{equation}
+와 같이 오일러-라그랑주 방정식을 얻는다. $\eta(t_1) = \eta(t_2)=0$임을 기억하라. 식 \ref{eq:6.9}는 경로 $q(t)$가 오일러-라그랑주 방정식을 만족한다면 $\delta S = 0$이라는 사실을 설명한다. 하지만 이것만으로는 $S[q]$가 극솟값을 갖는지, 극댓값을 갖는지, 안장점을 갖는지 확인할 수 없다.
+
+이제 $S$의 2차 변분을 고려하자. 이는
+\begin{equation}
+    \delta^2 S = \int_{t_1}^{t_2} [\mathcal{L}_{qq} \eta^2 + 2\mathcal{L}_{q\dot{q}} \eta \dot{\eta} + \mathcal{L}_{\dot{q}\dot{q}}\dot{\eta}^
+    2] \mathrm{d}t
+    \label{eq:6.10}
+\end{equation}
+이다. 만약 $S[q]$가 극솟값을 가진다면 $S[q_{\alpha}] - S[q] \geq 0$이어야 하고, $q(t)$가 오일러-라그랑주 방정식을 만족한다면
+\begin{equation}
+    S[q_{\alpha}] - S[q] = \frac{1}{2} \alpha^2 \delta^2S + \mathcal{O}(\alpha^3)
+\end{equation}
+이므로 작용이 극솟값을 가지기 위한 필요조건은 $\delta^2 S \geq 0$이다. 이 부등식은 고정된 양 끝점 조건을 만족하는 모든 허용 변분 $\eta(t)$에 대해 성립해야 한다. 왜 $\delta^2S \geq 0$인지 직관적으로 잘 이해가 가지 않는다면, 매끄러운 함수 $f(x)$에 대해 $f$가 정류점에서 극솟값을 가지는 필요조건이 $d^2f \geq 0$임을 떠올려 보아라.
+
+이제 $\delta ^2 S \geq 0$이라는 조건을 변형해 보자. \textbf{르장드르 조건(Legendre Condition)}은 오일러-라그랑주 방정식의 해가 극솟값을 가지기 위해 만족해야 하는 조건으로, 구간 $[t_1, t_2]$의 모든 $t$에 대해 $\mathcal{L}_{\dot{q}\dot{q}} \geq 0$이다. 이것이 어떻게 성립할 수 있을까?
+
+먼저 식 \ref{eq:6.10}의 가운데 항에 부분적분을 적용하자. $2\eta \dot{\eta} = \frac{\mathrm{d}\eta^2}{\mathrm{d}t}$이므로
+\begin{equation}
+    \begin{aligned}
+        \delta^2 S &= \int_{t_1}^{t_2} \left[\mathcal{L}_{qq} \eta^2 + \mathcal{L}_{q\dot{q}} \frac{\mathrm{d}\eta^2}{\mathrm{d}t} + \mathcal{L}_{\dot{q}\dot{q}}\dot{\eta}^
+    2 \right] \mathrm{d}t \\
+    &= \int_{t_1}^{t_2} \left[\mathcal{L}_{qq} \eta^2 - \frac{\mathrm{d}}{\mathrm{d}t} \left(\mathcal{L}_{q\dot{q}} \right) \eta^2 + \mathcal{L}_{\dot{q}\dot{q}}\dot{\eta}^
+    2 \right] \mathrm{d}t \\
+    &= \int_{t_1}^{t_2} [P(t) \eta^2 + Q(t) \dot{\eta}^2] \mathrm{d}t
+    \end{aligned}
+    \label{eq:6.12}
+\end{equation}
+가 된다. 이때 $P(t) \equiv \mathcal{L}_{qq} - \frac{\mathrm{d}}{\mathrm{d}t} \left(\mathcal{L}_{q\dot{q}} \right), Q(t) \equiv \mathcal{L}_{\dot{q}\dot{q}}$이다. $\eta^2(t_1)=\eta^2(t_2)=0$임을 다시 기억하라. 우리의 목적은 $S$가 극솟값을 가진다면 구간 $[t_1, t_2]$ 내의 모든 $t$에 대해 $Q(t) \geq 0$임을 보이는 것이다. 귀류법을 사용하기 위해 $t=t_0$에서 $Q(t) < 0$이라고 가정하자. 함수 $Q(t)$가 연속이라면, $t_0$ 근처의 좁은 구간 $[t_0 - \epsilon, t_0 + \epsilon]$에서도 $Q(t)$는 음수일 것이다. 구체적으로, 어떤 양수 $c$에 대해 이 구간 안에서 $Q(t) \leq -c < 0$이 성립한다.
+
+다음으로 시험 함수를
+\begin{equation}
+    \eta(t) = \begin{cases}
+    \epsilon - |t-t_0| & (t_0 - \epsilon<t<t_0+\epsilon) \\
+    0 & \mathrm{otherwise} \end{cases}
+\end{equation}
+처럼 정의하자. 이 함수는 구간 $[t_0 - \epsilon, t_0 + \epsilon]$에서 삼각형 모양을 이루며, 최댓값은 $\epsilon$이고 $\dot{\eta}^2 = 1$이다. 이를 식 \ref{eq:6.12}에 대입하면
+\begin{equation}
+    \delta^2 S = \int_{t_0 - \epsilon}^{t_0+\epsilon}[P(t) \eta^2 + Q(t) \dot{\eta}^2] \mathrm{d}t.
+\end{equation}
+각 항의 상한을 계산하자. 먼저 $Q(t)$ 항은
+\begin{equation}
+    \int_{t_0 - \epsilon}^{t_0+\epsilon} Q(t)  \dot{\eta}^2 \mathrm{d}t\leq \int_{t_0 - \epsilon}^{t_0+\epsilon} (-c) \cdot 1 \mathrm{d}t = -2c\epsilon
+\end{equation}
+이고, $P(t)$ 항은 $P(t)$의 최댓값을 $M$이라고 가정했을 때
+\begin{equation}
+    \int_{t_0 - \epsilon}^{t_0+\epsilon} P(t)  {\eta}^2 \mathrm{d}t\leq M\epsilon^2 \int_{t_0 - \epsilon}^{t_0+\epsilon} 1 \cdot \mathrm{d}t = 2M\epsilon^3
+\end{equation}
+이므로, 전체 적분식은
+\begin{equation}
+    \delta^2 S \leq 2\epsilon (M\epsilon^2-c)
+    \label{eq:6.17}
+\end{equation}
+를 만족한다. 이 식을 관찰하자. $\epsilon$은 적분 구간의 절반이며, 그 크기는 우리가 마음대로 잡을 수 있다. 만약 우리가 $\epsilon$을 아주 작게 만들어 $(M\epsilon^2-c) < 0$이 성립하게 한다면 어떨 것인가? 그렇다면 식 \ref{eq:6.17}의 우변은 음수가 되고 $\delta^2S < 0$이 될 것이다! 이는 분명히 앞선 가정과 모순이다. $Q(t_0) < 0$인 지점이 하나라도 있다면 우리는 그 근처에서 $\delta^2 S$를 음수로 만들어 버리는 경로를 항상 찾을 수 있으므로, 작용이 극솟값을 가진다면 모든 구간에서 반드시 $Q(t) = \mathcal{L}_{\dot{q}\dot{q}} \geq 0$이어야 한다.\footnote{실제로 $\delta^2 S \geq  0$을 만족하려면 르장드르 조건뿐만 아니라 구간 내에 켤레점(conjugate points)이 없어야 한다는 야코비 조건(Jacobi condition)도 포함되어야 한다.}
+
+만약 계를 기술하는 좌표가 여럿이라면 이는 다변수함수의 경우와 유사하다. 즉, 매끄러운 다변수함수 $f$에 대해 $\nabla f(\mathbf{a}) = 0$이라고 해서 $f$가 $\mathbf{a}$에서 극값을 가진다고 말할 수 없는 것과 같다. 이 경우는 다변수함수의 판정법처럼 헤세 행렬(Hessian Matrix)
+\begin{equation}
+    H_{ij} = \frac{\partial^2 \mathcal{L}}{\partial \dot{q_i} \partial{\dot{q_j}}}
+\end{equation}
+이 양의 준정부호를 가진다는 조건을 통해 극솟값의 필요조건을 얻어야 한다.
+
+르장드르 조건은 물리적으로 흥미로운 의미를 갖는다. 운동 에너지가 $\frac{1}{2}m\dot{x^2}$이고 퍼텐셜 에너지가 속도에 의존하지 않는 계를 고려하자. 우리는 르장드르 조건을 계산하여 $\mathcal{L}_{\dot{q}\dot{q}} = m \geq 0$을 얻는다. 결국 르장드르 조건이 만족된다는 것은 질량이 양수여야 한다는 사실과 같다. 그러나 최소 작용의 원리는 작용을 `정적화'하는 것이지 작용을 `최소화'하는 것이 아님을 기억하라. 질량이 음수가 되지 말아야 할 이유가 정확히 무엇인가?
+
+\section{일반화 좌표계 (Generalized Coordinates)}
+우리의 논의는 기본적으로 $n$개의 점입자에 대한 역학적 계를 기반으로 한다. 만약 계가 1차원 공간이라면 계를 기술하는 변수는 $n$개이다. 만약 계가 데카르트 좌표계처럼 3차원 공간이라면 계를 기술하는 변수는 $3n$개이다. 만약 3차원 공간에 $m$개의 구속 방정식이 주어진다면 계를 기술하는 독립변수는 $3n-m$개가 된다.
+
+물체의 운동을 기술하기 위해 필요한 최소한의 독립변수의 개수를 \textbf{자유도(degree of freedom)}라고 한다. 따라서 마지막 예시의 자유도는 $s = 3n-m$이다. 정의에 따라, 물체의 운동은 $s$개의 변수만 있다면 완전히 기술된다. 그러므로 우리는 $s$개의 변수를 가지는 어떠한 좌표계를 잡아도 계의 운동을 분석할 수 있다. 이러한 좌표계를 \textbf{일반화 좌표계(generalized coordintates)}라고 부른다.
+
+라그랑주 역학은 기본적으로 일반화 좌표계 위에서 이루어진다. $i$번째 입자의 일반화 좌표를 $q_i$, 일반화 속도를 $\dot{q_i}$라고 하자. 이제 식 \ref{eq:6.3}처럼 일반화 좌표계에 대한 오일러-라그랑주 방정식을 풀면 계의 운동 방정식을 얻을 수 있다. 다시 한번, $s$개의 변수를 갖는 좌표계가 있다면 자유도가 $s$인 어떠한 문제든 풀 수 있다는 사실을 기억하자. 풀 수 없는 문제는 없다. 단지 풀기 어려운 문제가 있을 뿐이다.
+
+\begin{examplebox}{예제 6.2}
+\begin{example}
+단진자의 운동 방정식을 라그랑주 역학을 통해 구하여라.
+\end{example}
+\end{examplebox}
+
+\begin{solution}
+    잠깐 생각해 보자. 단진자의 자유도는 얼마일까? 2장에서 이 문제를 풀었기 때문에 알겠지만, 단진자의 운동 방정식은 추의 각도 $\theta$에만 의존한다. 즉, 자유도가 1이다. $\theta$를 일반화 좌표계로 잡으면 계의 라그랑지안은 다음과 같다.
+    \begin{equation}
+    \begin{aligned}
+        \mathcal{L} &= \frac{1}{2}m(\dot{x}^2 + \dot{y}^2) + mgy \\
+        &= \frac{1}{2}ml^2 \dot{\theta}^2 -mgl(1-\cos{\theta})
+    \end{aligned}
+    \label{eq:6.19}
+    \end{equation}
+    이상에서 $l$은 단진자의 길이, $m$은 추의 질량이다. 라그랑지안이 오직 $\theta$와 $\dot{\theta}$에 대한 함수라는 사실은 단진자의 일반화 좌표계가 $\theta$라는 사실을 잘 설명한다. 이제 오일러-라그랑주 방정식을 풀면
+    \begin{equation}
+        \ddot{\theta} + \frac{g}{l}\sin{\theta} = 0
+    \end{equation}
+    을 얻는다. 이는 예제 2.1에서 보았던 단진자의 운동 방정식과 일치한다. 단진자의 자유도가 1이므로 우리는 $\theta$ 대신 다른 변수, 예를 들어 $\alpha = \frac{\pi}{2} - \theta$ 같은 변수를 일반화 좌표계로 두어도 운동 방정식을 구할 수 있다.
+\end{solution}
+
+\noindent\rule{\textwidth}{0.8pt} % 본문 전체 너비만큼 0.8pt 두께의 검은 줄을 긋습니다.
+\vspace{1em} % 줄 아래에 약간의 여백을 줍니다.
+
+우리는 $s$개의 일반화 좌표 $q_i$로 만들어지는 $s$차원 공간을 \textbf{구성 공간(configuration space)}이라고 부른다. 구성 공간은 해석역학, 특히 라그랑주 역학에서 계의 운동 방정식을 세우고 경로를 분석하는 데 사용된다. 이 개념은 해밀턴 역학을 다룰 때 다시 등장할 것이다.
+
+\section{구속력 (Forces of Constraint)}
+6.3절의 내용은 계의 구속 조건을 일반화 좌표계의 정의에 반영함으로써, 구속 방정식을 명시적으로 사용하지 않고도 계의 운동을 기술할 수 있음을 의미한다. $m$개의 구속 방정식이 존재한다면, 우리는 자유도 $s=3n-m$ 만큼의 변수를 갖는 일반화 좌표계를 잡아 운동 방정식을 구할 수 있기 때문이다. 하지만 계가 구속 조건을 지키도록 하는 힘, 즉 구속력 자체가 궁금한 경우에는 어떻게 해야 할까?
+
+답은 구속 방정식이 주어진 오일러-라그랑주 방정식에 있다. 5.4절의 내용을 떠올려 보자. 구속 방정식 $G$가 주어진 오일러-라그랑주 방정식을 풀 때 우리가 한 일은 $3n$개의 변수에 대한 오일러-라그랑주 방정식을 쓰고, $m$개의 구속 방정식을 통해 총 $3n+m$개의 방정식을 연립하는 것이었다. 그리하여 우리는 계를 기술하는 $3n$개의 좌표와, 구속 방정식에 관한 정보인 $m$개의 $\lambda$를 구할 수 있었다. 라그랑주 역학에서 $\lambda$는 구속력을 결정하는 계수의 역할을 한다.
+
+이쯤에서 구속 방정식의 종류를 구분할 필요가 있다. 먼저 \textbf{홀로노믹(holonomic)} 구속 조건은 위치와 시간만으로 구성되는 관계식으로 표현할 수 있으며, 일반적으로 $G(q, t) = 0$의 형태를 갖는다. 반면 \textbf{비홀로노믹(non-holonomic)} 구속 조건은 위치와 시간만으로 환원할 수 없는 구속 조건을 의미하며, 흔히 $G(q, \dot{q}, t)=0$의 형태를 갖는다. 한편 \textbf{스클레로노믹(scleronomic)} 구속 조건은 시간에 명시적으로 의존하지 않는 구속 조건을 의미하고, \textbf{레오노믹(rheonomic)} 구속 조건은 시간에 종속적인 구속 조건을 의미한다. 구속 조건은 홀로노믹과 비홀로노믹이라는 기준, 그리고 스클레로노믹과 레오노믹이라는 기준에 따라 총 4가지 종류로 분류할 수 있다.
+
+식 \ref{eq:5.56}과 식 \ref{eq:5.59}에서 볼 수 있듯, 구속 조건이 홀로노믹이라면 오일러-라그랑주 방정식은 다음과 같다.\footnote{비홀로노믹 구속 조건이 주어진 오일러-라그랑주 방정식은 유도하기가 복잡하므로 여기서는 다루지 않는다.}
+\begin{equation}
+\begin{aligned}
+    \frac{\partial \mathcal{L}}{\partial q_i} - \frac{\mathrm{d}}{\mathrm{d}t}\frac{\partial \mathcal{L}}{\partial \dot{q_i}} + \sum_{j=1}^{m}\lambda_j\frac{\partial {G}_{j}}{\partial q_i} = 0
+\end{aligned}
+\label{eq:6.21}
+\end{equation}
+이때 구속 방정식과 관련된 항
+\begin{equation}
+    Q_i^{c}\equiv \sum_{j=1}^{m}\lambda_j\frac{\partial G_j}{\partial q_i}
+\end{equation}
+은 \textbf{일반화 구속력(generalized forces of constraint)}이라고 한다. 왜 이러한 이름이 붙었을까? 우선 일반화 좌표 $q_i$에 대응하는 일반화 힘 $Q_i$는 가상의 일 $\delta W = \sum Q_i \delta q_i$를 통해 정의된다. 일반화 구속력 $Q_i^{c}$가 한 가상의 일은
+\begin{equation}
+\begin{aligned}
+\delta W &=\sum_i Q_i^{c}\delta q_i=\sum_{j=1}^{m}\lambda_j \sum_i\frac{\partial G_j}{\partial q_i} \delta q_i\\ &=\sum_{j=1}^{m}\lambda_j \delta G_j =0
+\end{aligned}
+\end{equation}
+이고, 이는 구속력의 정의를 생각하면 자명하다. 허용되는 가상 변위에 대해 구속력은 일을 하지 않기 때문이다. $Q_i^{c}$는 일반화 좌표에 대응하는 힘이므로 좌표가 길이인 경우 힘의 단위를, 좌표가 각도인 경우 토크의 단위를 가진다.
+
+이로부터 얻을 수 있는 결론은 다음과 같다. 홀로노믹 구속 조건이 주어진 계의 구속력을 알고 싶다면, 구속 방정식이 주어진 오일러-라그랑주 방정식을 풀면 된다.
+
+\begin{examplebox}{예제 6.3}
+\begin{example}
+단진자의 구속력을 구하여라.
+\end{example}
+\end{examplebox}
+
+\begin{solution}
+    단진자의 자유도는 1이다. 그러나 구속력을 구하기 위해 좌표를 $x$와 $y$ 두 개로 잡고, 구속 조건을 하나 추가하자. 단진자의 길이 $l$은 변하지 않으므로 우리는 다음과 같은 구속 조건 $G$를 잡을 수 있다.
+    \begin{equation}
+        G : x^2 + y^2 - l^2 = 0
+        \label{eq:6.24}
+    \end{equation}
+    한편 계의 라그랑지안은 다음과 같다.
+    \begin{equation}
+        \mathcal{L} = \frac{1}{2}m(\dot{x}^2 + \dot{y}^2) + mgy
+    \end{equation}
+    구속 방정식이 주어진 오일러-라그랑주 방정식을 풀면
+    \begin{equation}
+        \begin{aligned}
+            -m\ddot{x} +2\lambda x &= 0 \\
+            -m\ddot{y} +mg+2\lambda y &= 0.
+        \end{aligned}
+        \label{eq:6.26}
+    \end{equation}
+    식 \ref{eq:6.24}와 식 \ref{eq:6.26}을 연립하자. 우선 \ref{eq:6.26}를 두 번 미분하여
+    \begin{equation}
+        \dot{x}^2 + \dot{y}^2 +x\ddot{x} + y\ddot{y} = 0
+    \end{equation}
+    을 얻고, 식 \ref{eq:6.26}을 대입하여
+    \begin{equation}
+        \dot{x}^2 + \dot{y}^2 + gy + \frac{2\lambda}{m}(x^2+y^2) = 0
+    \end{equation}
+    을 얻는다. $x^2+y^2=l^2$이므로, 이상에서 $\lambda$는
+    \begin{equation}
+        \lambda = -\frac{m}{2l^2}(\dot{x}^2 + \dot{y}^2 + gy)
+    \end{equation}
+    이다. 이제 구속력 $\textbf{F}_c$를 구하자. 일반화 구속력의 각 성분을 고려하면 $\textbf{F}_c = Q_x \mathbf{\hat{x}} + Q_y\mathbf{\hat{y}} = 2\lambda (x \mathbf{\hat{x}}+ y\mathbf{\hat{y}}) = 2\lambda \mathbf{r}$이고, $|\mathbf{r}| = \sqrt{x^2+y^2} = l$이므로
+    \begin{equation}
+    \textbf{F}_c = -\frac{m}{l}(\dot{x}^2 + \dot{y}^2 + gy)\mathbf{\hat{r}}. \label{eq:6.30}
+    \end{equation}
+    이때 $\mathbf{r}$은 단위벡터이다. 식 \ref{eq:6.30}을 극좌표계로 치환하면
+    \begin{equation}
+        \textbf{F}_c = -\frac{m}{l}(l^2 \dot{\theta}^2 + gl\cos{\theta})\mathbf{\hat{r}} = -(ml\dot{\theta}^2 + mg\cos{\theta})\mathbf{\hat{r}}.
+    \end{equation}
+    결과를 관찰하자. 구속력의 방향은 반지름 방향과 평행하다. 또 첫 번째 항은 진자가 원운동할 수 있도록 구심 가속도를 주는 힘이며, 두 번째 항은 중력의 반지름 방향 성분에 대한 보상이다. 눈치챘는가? 사실 $\mathbf{F}_c$는 줄의 장력과 같다. 즉, 단진자가 구속 조건을 유지하게 하는 힘은 줄의 장력이다.
+\end{solution}
+
+\noindent\rule{\textwidth}{0.8pt} % 본문 전체 너비만큼 0.8pt 두께의 검은 줄을 긋습니다.
+\vspace{1em} % 줄 아래에 약간의 여백을 줍니다.
+
+\begin{examplebox}{예제 6.3}
+\begin{example}
+반지름이 $a$인 반구의 표면 위로 질량 $m$인 공이 운동하고 있다. 계의 구속 방정식을 찾고, 공이 반구의 표면을 떠나는 지점을 구하여라.
+\end{example}
+\end{examplebox}
+
+\begin{solution}
+    반구의 중심을 원점으로 하는 극좌표계 $(r, \theta)$를 도입하자. 계의 구속 방정식 $G$는 다음과 같다.
+    \begin{equation}
+        G : r - a = 0
+    \end{equation}
+    한편 계의 라그랑지안은
+    \begin{equation}
+        \mathcal{L} = \frac{1}{2}m(\dot{r}^2 + r^2\dot{\theta}^2) - mgr\cos{\theta}
+    \end{equation}
+    이다. 구속 조건이 주어진 오일러-라그랑주 방정식을 풀면
+    \begin{equation}
+        \begin{aligned}
+            mr\dot{\theta}^2 - mg\cos{\theta} - m\ddot{r} + \lambda &= 0 \\
+            mgr\sin{\theta} - mr^2\ddot{\theta} - 2mr\dot{r}\dot{\theta} &= 0.
+        \end{aligned}
+    \end{equation}
+    이제 연립하자. 우선 $r=a, \ddot{r} = \dot{r} =0$을 고려하면
+    \begin{equation}
+        \begin{aligned}
+            ma\dot{\theta}^2 - mg\cos{\theta} + \lambda &= 0 \\
+            mga\sin{\theta} - ma^2\ddot{\theta} &= 0
+        \end{aligned}
+    \end{equation}
+    이고, 이로부터 운동 방정식
+    \begin{equation}
+        \ddot{\theta} - \frac{g}{a}\sin{\theta} = 0
+    \end{equation}
+    을 얻는다. 이때
+    \begin{equation}
+        \ddot{\theta} = \frac{\mathrm{d}\dot{\theta}}{\mathrm{d}t} = \frac{\mathrm{d}\dot{\theta}}{\mathrm{d}\theta}\frac{\mathrm{d}\theta}{\mathrm{d}t} = \dot{\theta}\frac{\mathrm{d}\dot{\theta}}{\mathrm{d}\theta}
+    \end{equation}
+    가 성립하고
+    \begin{equation}
+        \int \ddot{\theta} \mathrm{d}\theta = \int \dot{\theta} \mathrm{d}\dot{\theta} = \frac{1}{2}\dot{\theta}^2 = -\frac{g}{a}\cos{\theta} + C
+    \end{equation}
+    이므로, 적분 상수 $C$를 초기 조건 $\theta(0) = 0, \dot{\theta}(0) = 0$을 통해 결정하면
+    \begin{equation}
+        \dot{\theta}^2 = \frac{2g}{a}(1-\cos{\theta})
+    \end{equation}
+    가 된다. 따라서 $\lambda$는
+    \begin{equation}
+        \lambda = mg\cos{\theta} - ma\dot{\theta}^2 = mg\cos{\theta} - 2mg(1-\cos{\theta}) = 3mg\cos{\theta} - 2mg
+    \end{equation}
+    이다. 공이 반구의 표면을 떠나는 지점은 구속력의 계수 $\lambda$가 0일 때이므로, 이 지점의 각도를 $\theta_0$라고 하면
+    \begin{equation}
+        \cos{\theta_0} = \frac{2}{3}
+    \end{equation}
+    을 얻는다.
+\end{solution}
+
+\noindent\rule{\textwidth}{0.8pt} % 본문 전체 너비만큼 0.8pt 두께의 검은 줄을 긋습니다.
+\vspace{1em} % 줄 아래에 약간의 여백을 줍니다.
+
+\section{뉴턴 역학과의 동등성 (Equivalence of Lagrange's and Newton's Mechanics)}
+좋다. 자연이 작용을 최적화한다는 것은 알겠다. 우리는 이러한 해밀턴의 원리를 바탕으로 오일러-라그랑주 방정식을 세웠고, 이를 풀어 물체의 운동 방정식을 구했다. 하지만 이렇게 구한 운동 방정식이 뉴턴 역학에서 구한 운동 방정식과 항상 같을까? 즉, 라그랑주 역학은 뉴턴 역학과 본질적으로 동등한가?
+
+먼저 라그랑주 역학에서 뉴턴 역학으로 가는 길을 살펴 보자. 보존장 하에서 일반화 좌표계를 직교 좌표계로 잡으면, 계의 라그랑지안은
+\begin{equation}
+    \mathcal{L} = T - U = \frac{1}{2}m(\dot{x}^2 + \dot{y}^2 + \dot{z}^2) - U(x, y, z)
+\end{equation}
+이다. 한편 오일러-라그랑주 방정식은
+\begin{equation}
+    \frac{\partial (T-U)}{\partial x_i} - \frac{\mathrm{d}}{\mathrm{d}t}\frac{\partial (T-U)}{\partial \dot{x_i}}= 0
+\end{equation}
+을 만족한다. 이때 $x_i$는 $x, y, z$ 중 하나이다. 보존장에서 퍼텐셜 에너지는 속도에 의존하지 않고 운동 에너지는 위치에 의존하지 않으므로, 이 식은 다음과 같이 쓸 수 있다.
+\begin{equation}
+    \begin{aligned}
+        -\frac{\partial U}{\partial x_i} - \frac{\mathrm{d}}{\mathrm{d}t}\frac{\partial T}{\partial \dot{x_i}} = -\frac{\partial U}{\partial x_i} - \frac{\mathrm{d}}{\mathrm{d}t}(mv_i) =0
+    \end{aligned}
+\end{equation}
+이는 뉴턴의 제2법칙
+\begin{equation}
+    -\nabla U = \mathbf{\dot{p}}
+\end{equation}
+을 각 성분별로 쓴 것과 동일하다. 따라서 우리는 라그랑주 역학으로부터 뉴턴 역학의 운동 방정식을 얻는다.
+
+다음으로 할 일은 뉴턴 역학에서 라그랑주 역학으로 가는 길을 찾는 것이다. 이 길은 조금 더 복잡하다. 먼저 뉴턴 역학의 직교 좌표계를 라그랑주 역학의 일반화 좌표계로 변환하자. 직교 좌표계의 각 성분 $x_i$는 $x_i = x_i(q_k, t)$의 형태로 쓸 수 있다. 이에 따라 $\dot{x}_i$는
+\begin{equation}
+    \dot{x}_i = \sum_k \frac{\partial x_i}{\partial q_k}\dot{q}_k + \frac{\partial x_i}{\partial t}
+\end{equation}
+이고, 이 식을 $\dot{q}_j$에 대해 편미분하면
+\begin{equation}
+    \frac{\partial \dot{x}_i}{\partial \dot{q_j}} = \frac{\partial x_i}{\partial q_j} \label{eq:6.47}
+\end{equation}
+라는 식을 얻는다. 이제 계의 운동 에너지
+\begin{equation}
+    T = \frac{1}{2}m\sum_i \dot{x_i}^2 \label{eq:6.48}
+\end{equation}
+를 일반화 속도 $\dot{q}_j$에 대해 편미분하자. 이 값은
+\begin{equation}
+    \frac{\partial T}{\partial \dot{q}_j} = m\sum_i \dot{x}_i\frac{\partial x_i}{\partial q_j} = m\sum_i \dot{x}_i\frac{\partial \dot{x}_i}{\partial \dot{q_j}}
+\end{equation}
+와 같다. 한편 \textbf{일반화 운동량(generalized momentum)}은
+\begin{equation}
+    p_j \equiv \frac{\partial \mathcal{L}}{\partial \dot{q}_j}
+\end{equation}
+처럼 정의되는 물리량으로, 계가 보존장이면 운동 에너지를 통해
+\begin{equation}
+    p_j = \frac{\partial T}{\partial \dot{q}_j} = m\sum_i \dot{x}_i\frac{\partial \dot{x}_i}{\partial \dot{q_j}} \label{eq:6.51}
+\end{equation}
+이 된다. 왜 이런 이름이 붙었을까? 일반화 운동량은 일반화 좌표 $q_j$에 대응하는 운동량이기 때문이다. 예를 들어 극좌표계에서 운동하며 운동 에너지가 $T = \frac{1}{2}m(\dot{r}^2 + r^2\dot{\theta}^2)$인 입자에 대해, 일반화 좌표 $q_r = r$에 대응하는 일반화 운동량은 $p_r = m\dot{r}$이고 일반화 좌표 $q_\theta = \theta$에 대응하는 일반화 운동량은 $p_\theta = mr^2\dot{\theta}$이다. $p_r$은 입자의 선운동량을 나타내고 $p_\theta$은 입자의 각운동량을 나타낸다. 이는 뉴턴 역학에서의 운동량의 개념과 일치한다. 단지 그 개념이 일반화 좌표계로 확장되었을 뿐이다.
+
+이제 일반화 힘을 조사하자. 뉴턴 역학에서 힘이 가상 변위에 대해 하는 일은
+\begin{equation}
+    \delta W = \sum_i F_i \delta x_i
+\end{equation}
+이다. 한편 일반화 좌표계에서는
+\begin{equation}
+    \delta W = \sum_j Q_j \delta q_j.
+\end{equation}
+따라서 두 식을 비교하면
+\begin{equation}
+    \delta W = \sum_i F_i \delta x_i = \sum_i F_i \left(\sum_j \frac{\partial x_i}{\partial q_j} \delta q_j \right) = \sum_j \left(\sum_i F_i \frac{\partial x_i}{\partial q_j}\right) \delta q_j
+\end{equation}
+이고, 일반화 힘은 다음과 같다.
+\begin{equation}
+    Q_j = \sum_i F_i \frac{\partial x_i}{\partial q_j} \label{eq:6.55}
+\end{equation}
+
+일반화 좌표에 대응하는 운동량과 힘을 얻었으므로 이들을 연관지어 보자. 뉴턴의 운동 법칙 $F_i = m\ddot{x}_i$를 식 \ref{eq:6.55}에 대입하면
+\begin{equation}
+    Q_j = \sum_i m\ddot{x}_i \frac{\partial x_i}{\partial q_j}.
+\end{equation}
+그리고 일반화 운동량 식 \ref{eq:6.51}을 시간에 대해 미분하면
+\begin{equation}
+    \dot{p}_j = \frac{\mathrm{d}}{\mathrm{d}t}\left(\frac {\partial T}{\partial \dot{q}_j} \right)= \frac{\mathrm{d}}{\mathrm{d}t}\left(m\sum_i \dot{x}_i\frac{\partial \dot{x}_i}{\partial \dot{q}_j}\right) = m\sum_i \ddot{x}_i\frac{\partial \dot{x}_i}{\partial \dot{q}_j} + m\sum_i \dot{x}_i\frac{\mathrm{d}}{\mathrm{d}t}\left(\frac{\partial \dot{x}_i}{\partial \dot{q}_j}\right). \label{eq:6.57}
+\end{equation}
+이 식의 첫 번째 항은 일반화 힘 $Q_j$이다. 두 번째 항은 무엇일까? 놀랍게도 이건 운동 에너지를 일반화 좌표 $q_j$에 대해 편미분한 것과 같다. 구체적으로
+\begin{equation}
+\frac{\partial T}{\partial q_j} = m\sum_i \dot{x}_i \frac{\partial \dot{x}_i}{\partial q_j} = m\sum_i \dot{x}_i \left( \sum_k \frac{\partial^2 x_i}{\partial q_k \partial q_j} \dot{q}_k + \frac{\partial^2 x_i}{\partial q_j \partial t} \right) = m\sum_i \dot{x}_i\frac{\mathrm{d}}{\mathrm{d}t}\left(\frac{\partial \dot{x}_i}{\partial q_j}\right)
+\end{equation}
+이기 때문이다. 이 결과를 바탕으로 식 \ref{eq:6.57}을 다시 쓰면
+\begin{equation}
+    \frac{\mathrm{d}}{\mathrm{d}t}\left(\frac{\partial T}{\partial \dot{q}_j} \right) = Q_j + \frac{\partial T}{\partial q_j}.
+\end{equation}
+계가 보존장이면 $Q_j = -\frac{\partial U}{\partial q_j}$이므로, 위 식은
+\begin{equation}
+    \frac{\mathrm{d}}{\mathrm{d}t}\left(\frac{\partial T}{\partial \dot{q}_j} \right) - \frac{\partial T}{\partial q_j} + \frac{\partial U}{\partial q_j} = 0
+\end{equation}
+처럼 바뀌고, 라그랑지안 $\mathcal{L} = T - U$을 도입하면 최종적으로
+\begin{equation}
+    \frac{\mathrm{d}}{\mathrm{d}t}\left(\frac{\partial \mathcal{L}}{\partial \dot{q}_j} \right) - \frac{\partial \mathcal{L}}{\partial q_j} = 0
+\end{equation}
+을 얻는다. 이는 오일러-라그랑주 방정식과 동일하다. 따라서 우리는 뉴턴 역학에서 라그랑주 역학으로 가는 길을 찾았다. 즉, 뉴턴의 운동 법칙을 일반화 좌표계로 변환하면 오일러-라그랑주 방정식을 얻는다. 결론적으로 라그랑주 역학과 뉴턴 역학은 본질적으로 동등하다.
+
+
+
+
+
+
+
+\section{라그랑주 역학의 정수 (Essence of Lagrangian Mechanics)}
+라그랑주 역학을 왜 쓰는가?
+
+\section{운동 에너지 정리 (Kinetic Energy Theorem)}
+
+\section{대칭성과 보존 정리 (Symmetry and Conservation Theorems)}
+
 \newpage
 % Chapter 7 시작
 \chapter{해밀턴 역학 (Hamiltonian Mechanics)}
+
+\section{정준 방정식 (Canonical Equations)}
+
+\section{르장드르 변환 (Legendre Transformation)}
+
+\section{해밀턴-야코비 방정식 (Hamilton-Jacobi Equations)}
+
+\section{푸아송 괄호 (Poisson's Brackets)}
+
+\section{위상 공간 유체와 리우빌 정리 (Phase Space Fluids and Liouville's Theorem)}
+
+\section{비리얼 정리 (Virial Theorem)}
 
 \newpage
 % Chapter 8 시작

@@ -19,7 +19,7 @@
 \contentsline {section}{\numberline {3.1}개요}{36}{section.3.1}%
 \contentsline {section}{\numberline {3.2}비선형 진동 (Nonlinear Oscillations)}{37}{section.3.2}%
 \contentsline {section}{\numberline {3.3}평면 진자 (Plane Pendulum)}{37}{section.3.3}%
-\contentsline {section}{\numberline {3.4}섭동론 (Perturbation Theory)}{41}{section.3.4}%
+\contentsline {section}{\numberline {3.4}섭동론 (Perturbation Theory)*}{41}{section.3.4}%
 \contentsline {section}{\numberline {3.5}비선형계의 위상도 (Phase Diagrams for Nonlinear Systems)}{44}{section.3.5}%
 \contentsline {section}{\numberline {3.6}더핑 진동자 (Duffing Oscillators)}{47}{section.3.6}%
 \contentsline {chapter}{\chapternumberline {제\,4\,장}중력 (Gravitation)}{50}{chapter.4}%
@@ -35,6 +35,20 @@
 \contentsline {section}{\numberline {5.5}구속 방정식 (Equations of Constraint)}{71}{section.5.5}%
 \contentsline {section}{\numberline {5.6}델타 표기법 (The Delta Notation)}{76}{section.5.6}%
 \contentsline {chapter}{\chapternumberline {제\,6\,장}라그랑주 역학 (Lagrangian Mechanics)}{78}{chapter.6}%
-\contentsline {chapter}{\chapternumberline {제\,7\,장}해밀턴 역학 (Hamiltonian Mechanics)}{79}{chapter.7}%
-\contentsline {chapter}{\chapternumberline {제\,8\,장}중심력과 천체역학 (Central Forces and Celestial Mechanics)}{80}{chapter.8}%
-\contentsline {chapter}{\chapternumberline {제\,9\,장}입자계의 운동역학 (Dynamics of a System of Particles)}{81}{chapter.9}%
+\contentsline {section}{\numberline {6.1}해밀턴의 원리 (Hamilton's Principle)}{78}{section.6.1}%
+\contentsline {section}{\numberline {6.2}르장드르 조건 (Legendre Condition)*}{79}{section.6.2}%
+\contentsline {section}{\numberline {6.3}일반화 좌표계 (Generalized Coordinates)}{82}{section.6.3}%
+\contentsline {section}{\numberline {6.4}구속력 (Forces of Constraint)}{83}{section.6.4}%
+\contentsline {section}{\numberline {6.5}뉴턴 역학과의 동등성 (Equivalence of Lagrange's and Newton's Mechanics)}{87}{section.6.5}%
+\contentsline {section}{\numberline {6.6}라그랑주 역학의 정수 (Essence of Lagrangian Mechanics)}{90}{section.6.6}%
+\contentsline {section}{\numberline {6.7}운동 에너지 정리 (Kinetic Energy Theorem)}{90}{section.6.7}%
+\contentsline {section}{\numberline {6.8}대칭성과 보존 정리 (Symmetry and Conservation Theorems)}{90}{section.6.8}%
+\contentsline {chapter}{\chapternumberline {제\,7\,장}해밀턴 역학 (Hamiltonian Mechanics)}{91}{chapter.7}%
+\contentsline {section}{\numberline {7.1}정준 방정식 (Canonical Equations)}{91}{section.7.1}%
+\contentsline {section}{\numberline {7.2}르장드르 변환 (Legendre Transformation)}{91}{section.7.2}%
+\contentsline {section}{\numberline {7.3}해밀턴-야코비 방정식 (Hamilton-Jacobi Equations)}{91}{section.7.3}%
+\contentsline {section}{\numberline {7.4}푸아송 괄호 (Poisson's Brackets)}{91}{section.7.4}%
+\contentsline {section}{\numberline {7.5}위상 공간 유체와 리우빌 정리 (Phase Space Fluids and Liouville's Theorem)}{91}{section.7.5}%
+\contentsline {section}{\numberline {7.6}비리얼 정리 (Virial Theorem)}{91}{section.7.6}%
+\contentsline {chapter}{\chapternumberline {제\,8\,장}중심력과 천체역학 (Central Forces and Celestial Mechanics)}{92}{chapter.8}%
+\contentsline {chapter}{\chapternumberline {제\,9\,장}입자계의 운동역학 (Dynamics of a System of Particles)}{93}{chapter.9}%
