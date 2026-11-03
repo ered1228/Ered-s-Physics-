@@ -674,7 +674,6 @@ INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/nanumtype1/nanummjbc8.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmcd.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/nanumtype1/nanummjbcd.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/nanumtype1/nanummjbcf.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/nanumtype1/nanummjbcc.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/nanumtype1/nanummjbc7.tfm
 OUTPUT ECMmain.toc
 INPUT ECMmain.aux

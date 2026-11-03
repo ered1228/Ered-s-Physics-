@@ -2156,7 +2156,7 @@ $\tilde{J}$가 극값을 가진다면 $F$는 오일러-라그랑주 방정식을
 
 \begin{examplebox}{예제 5.7}
 \begin{example}
-장반경이 $a$, 단반경이 $b$인 타원이 있다. 이 타원에 내접하는 직사각형 중 넓이가 최대인 직사각형을 찾아라.
+장반경이 $a$, 단반경이 $b$인 타원이 있다. 이 타원에 내접하는 직사각형 중 넓이가 최대인 것을 찾아라.
 \end{example}
 \end{examplebox}
 
@@ -2270,9 +2270,7 @@ $\lambda C$는 $y$에 의존하지 않으므로 $y$에 대한 변분에 영향�
 \end{equation}
 이를 바탕으로 오일러-라그랑주 방정식을 유도하면 다음과 같다. 함수 $f(y, y';x)$의 변분은
 \begin{equation}
-    \begin{aligned}
-        \delta f &= \frac{\partial f}{\partial y} \frac{\partial y}{\partial \alpha} \mathrm{d}\alpha + \frac{\partial f}{\partial y'} \frac{\partial y'}{\partial \alpha} \mathrm{d}\alpha = \frac{\partial f}{\partial y} \delta y + \frac{\partial f}{\partial y'} \delta y' \\
-    \end{aligned}
+    \delta f = \frac{\partial f}{\partial y} \frac{\partial y}{\partial \alpha} \mathrm{d}\alpha + \frac{\partial f}{\partial y'} \frac{\partial y'}{\partial \alpha} \mathrm{d}\alpha = \frac{\partial f}{\partial y} \delta y + \frac{\partial f}{\partial y'} \delta y' \label{eq:5.78}
 \end{equation}
 이고
 \begin{equation}
@@ -2617,7 +2615,7 @@ $\delta$ 표기법은 변분법에 대한 간단한 표현을 제공하지만, �
 
 다음으로 할 일은 뉴턴 역학에서 라그랑주 역학으로 가는 길을 찾는 것이다. 이 길은 조금 더 복잡하다. 먼저 뉴턴 역학의 직교 좌표계를 라그랑주 역학의 일반화 좌표계로 변환하자. 직교 좌표계의 각 성분 $x_i$는 $x_i = x_i(q_k, t)$의 형태로 쓸 수 있다. 이에 따라 $\dot{x}_i$는
 \begin{equation}
-    \dot{x}_i = \sum_k \frac{\partial x_i}{\partial q_k}\dot{q}_k + \frac{\partial x_i}{\partial t}
+    \dot{x}_i = \sum_k \frac{\partial x_i}{\partial q_k}\dot{q}_k + \frac{\partial x_i}{\partial t} \label{eq:6.46}
 \end{equation}
 이고, 이 식을 $\dot{q}_j$에 대해 편미분하면
 \begin{equation}
@@ -2629,11 +2627,11 @@ $\delta$ 표기법은 변분법에 대한 간단한 표현을 제공하지만, �
 \end{equation}
 를 일반화 속도 $\dot{q}_j$에 대해 편미분하자. 이 값은
 \begin{equation}
-    \frac{\partial T}{\partial \dot{q}_j} = m\sum_i \dot{x}_i\frac{\partial x_i}{\partial q_j} = m\sum_i \dot{x}_i\frac{\partial \dot{x}_i}{\partial \dot{q_j}}
+    \frac{\partial T}{\partial \dot{q}_j} = m\sum_i \dot{x}_i\frac{\partial x_i}{\partial q_j} = m\sum_i \dot{x}_i\frac{\partial \dot{x}_i}{\partial \dot{q_j}} \label{eq:6.49}
 \end{equation}
 와 같다. 한편 \textbf{일반화 운동량(generalized momentum)}은
 \begin{equation}
-    p_j \equiv \frac{\partial \mathcal{L}}{\partial \dot{q}_j}
+    p_j \equiv \frac{\partial \mathcal{L}}{\partial \dot{q}_j} \label{eq:6.50}
 \end{equation}
 처럼 정의되는 물리량으로, 계가 보존장이면 운동 에너지를 통해
 \begin{equation}
@@ -2643,11 +2641,11 @@ $\delta$ 표기법은 변분법에 대한 간단한 표현을 제공하지만, �
 
 이제 일반화 힘을 조사하자. 뉴턴 역학에서 힘이 가상 변위에 대해 하는 일은
 \begin{equation}
-    \delta W = \sum_i F_i \delta x_i
+    \delta W = \sum_i F_i \delta x_i \label{eq:6.52}
 \end{equation}
 이다. 한편 일반화 좌표계에서는
 \begin{equation}
-    \delta W = \sum_j Q_j \delta q_j.
+    \delta W = \sum_j Q_j \delta q_j. \label{eq:6.53}
 \end{equation}
 따라서 두 식을 비교하면
 \begin{equation}
@@ -2685,31 +2683,188 @@ $\delta$ 표기법은 변분법에 대한 간단한 표현을 제공하지만, �
 을 얻는다. 이는 오일러-라그랑주 방정식과 동일하다. 따라서 우리는 뉴턴 역학에서 라그랑주 역학으로 가는 길을 찾았다. 즉, 뉴턴의 운동 법칙을 일반화 좌표계로 변환하면 오일러-라그랑주 방정식을 얻는다. 결론적으로 라그랑주 역학과 뉴턴 역학은 본질적으로 동등하다.
 
 
-
-
-
-
-
 \section{라그랑주 역학의 정수 (Essence of Lagrangian Mechanics)}
-라그랑주 역학을 왜 쓰는가?
+우리는 앞선 절에서 뉴턴 역학과 라그랑주 역학이 동등한 결과를 내놓는다는 것을 보았다. 그렇다면 라그랑주 역학과 뉴턴 역학의 차이는 무엇일까? 라그랑주 역학은 어떤 측면에서 뉴턴 역학보다 더 유용한가?
+
+먼저 라그랑주 역학은 간결하다. 라그랑주 역학은 라그랑지안이라는 한 함수 안에 계의 모든 정보를 담는다. 라그랑지안을 구하는 법도 간단하다. 라그랑지안은 운동 에너지와 퍼텐셜 에너지의 차이며 스칼라이기 때문에, 우리는 뉴턴 역학에서 그랬던 것처럼 입자의 각 성분별로 작용하는 힘(벡터)을 하나씩 찾을 필요가 없다. 특히 라그랑주 역학은 물체에 작용하는 힘을 알기 어렵지만, 물체가 가지는 에너지는 상대적으로 알기 쉬운 상황에 적합하다. 이는 전자기학과 양자역학, 표준 모형 등 더 고급스러운 마법이 모두 라그랑지안으로 기술되는 이유를 설명한다.
+
+다음으로 라그랑주 역학은 좌표계 변환에 용이하다. 라그랑지안이 스칼라이므로 이는 당연할 것이다. 라그랑주 역학은 일반화 좌표계 위에서 이루어지므로, 우리는 항상 계를 기술하는 가장 간단한 구성 공간을 선택하여 문제를 풀 수 있다.
+
+라그랑주 역학이 정말 좌표 변환에 용이한지 예를 들어 보자. 정지해 있는 관찰자 A와, A에 대해 운동하는 관찰자 B가 있다고 하자. A는 계의 운동을 기술하기 위해 일반화 좌표 $x$를 사용하고, B는 일반화 좌표 $X$를 사용한다. 둘 사이의 좌표 변환은 다음과 같다.
+\begin{equation}
+    X = x - f(t) \label{eq:6.62}
+\end{equation}
+여기서 $f(t)$는 관찰자 B가 관찰자 A에 대해 어떻게 움직이는지를 나타내는 함수이다. 이제 $A$가 보는 라그랑지안은
+\begin{equation}
+    \mathcal{L} = \frac{1}{2}m\dot{x}^2 - U(x)
+\end{equation}
+이고, $B$의 좌표로 변환하면
+\begin{equation}
+    \mathcal{L} = \frac{1}{2}m(\dot{X}+\dot{f})^2 - U(X) = \frac{1}{2}m( \dot{X}^2 + 2\dot{X}\dot{f} + \dot{f}^2) - U(X) \label{eq:6.64}
+\end{equation}
+이다. $B$는 뭘 할 수 있을까? 식 \ref{eq:6.64}에 오일러-라그랑주 방정식을 적용하면 그 결과는 다음과 같다.
+\begin{equation}
+    m \ddot{X} = -\frac{\partial U}{\partial X} - m \ddot{f}
+\end{equation}
+이 결과는 무엇을 설명하는가? 관찰자 B는 관찰자 A에 대해 가속도 $\ddot{f}$로 움직이므로 물체에 작용하는 가상의 힘 $-m\ddot{f}$을 보게 된다. 중요한 건 이 가상의 힘을 얻은 과정이다. 우리는 뉴턴 역학의 운동 방정식을 수정한 것이 아니라 라그랑지안에서 곧바로 계산했다.
+
+다른 예시를 들어 보자. 극좌표계
+\begin{equation*}
+    x = r\cos{\theta}, \quad y = r\sin{\theta}
+\end{equation*}
+를 생각하자. 이때 라그랑지안은
+\begin{equation}
+    \mathcal{L} = \frac{1}{2}m(\dot{r}^2 + r^2\dot{\theta}^2) - U(r, \theta)
+\end{equation}
+이다. 이제 오일러-라그랑주 방정식을 풀면
+\begin{equation}
+    m\ddot{r} - mr\dot{\theta}^2 = -\frac{\partial U}{\partial r}, \quad mr^2\ddot{\theta} + 2mr\dot{r}\dot{\theta} = -\frac{\partial U}{\partial \theta}
+\end{equation}
+을 얻는다. 이 결과는 뉴턴 역학에서 극좌표계로 변환한 운동 방정식과 같다. 하지만 라그랑주 역학에서는 좌표계 변환을 통해 라그랑지안을 바꾸고 오일러-라그랑주 방정식을 풀면 되므로, 뉴턴 역학에서처럼 각 성분별로 힘을 구할 필요가 없다.
+
+마지막으로 설명할 것은 라그랑주 역학과 뉴턴 역학이 지닌 관점의 차이다. 5.1절에서 말했듯이 뉴턴 역학은 인과론적 세계관을 만든다. 힘은 물체의 운동 상태를 변화시키는 원인이다. 반면 라그랑주 역학은 물체가 작용을 최소화하려는 목적을 가지고 운동한다고 본다. 즉, 목적론적 세계관을 만든다. 하지만 어떤 관점을 택하든 도출되는 결과는 같다는 사실을 기억하라. 우리는 한 문제를 여러 관점으로 볼 수 있는 자유가 있다.
 
 \section{운동 에너지 정리 (Kinetic Energy Theorem)}
+$\alpha$개의 입자가 있는 계를 고려하자. 뉴턴 역학에서 이 계의 운동 에너지는 다음과 같이 쓸 수 있다.
+\begin{equation}
+    T = \sum_{\alpha, i} \frac{1}{2}m_\alpha \dot{x}_{i, \alpha}^2
+\end{equation}
+한편 일반화 좌표계 $x_{\alpha, i} = x_{\alpha, i}(q_j, t)$를 도입한다면, 식 \ref{eq:6.46}으로부터
+\begin{equation}
+    \begin{aligned}
+    \dot{x}_{\alpha, i}^2 &= \sum_{j, k} \frac{\partial x_{\alpha, i}}{\partial q_j} \frac{x_{\alpha, i}}{\partial q_k} \dot{q}_j \dot{q}_k + 2 \sum_{k} \frac{\partial x_{\alpha, i}}{\partial q_k} \frac{x_{\alpha, i}}{\partial t} + \left(\frac{\partial x_{\alpha, i}}{\partial t} \right)^2 \implies \\
+    T &= \frac{1}{2}m_\alpha \sum_{\alpha} \left[ \sum_{i, j, k} \frac{\partial x_{\alpha, i}}{\partial q_j} \frac{x_{\alpha, i}}{\partial q_k} \dot{q}_j \dot{q}_k + 2 \sum_{i, k} \frac{\partial x_{\alpha, i}}{\partial q_k} \frac{x_{\alpha, i}}{\partial t} + \left(\frac{\partial x_{\alpha, i}}{\partial t} \right)^2 \right] \\
+    &= \sum_{j, k} a_{j, k} \dot{q}_j \dot{q}_k + \sum_{k} b_k \dot{q}_k + c
+    \end{aligned}
+\end{equation}
+을 얻는다. 이때 $a_{j, k}, b_{k}, c$는 각 항의 계수를 표현한 것이다. $j, k$는 더미 변수임에 유의하라. 만약 좌표 $x_{\alpha, i}$와 일반화 좌표 $q_{\alpha, j}$ 사이의 변환식이 시간에 의존하지 않으면, 즉 계가 스클레로노믹하다면
+\begin{equation}
+    \frac{x_{\alpha, i}}{\partial t} = 0
+\end{equation}
+이므로 $b_k = c = 0$이 된다. 따라서 일반화 속도로 나타나는 운동 에너지는
+\begin{equation}
+    T = \sum_{j, k} a_{j, k} \dot{q}_j \dot{q}_k
+\end{equation}
+이다. 이를 일반화 속도 $\dot{q}_l$에 대해 편미분하면
+\begin{equation}
+    \begin{aligned}
+    \frac{\partial T}{\partial \dot{q}_l} &= \sum_{j, k} a_{j, k} \left( \frac{\partial q_j}{\partial \dot{q}_l} \dot{q}_k + \frac{\partial q_k}{\partial \dot{q}_l} \dot{q}_j \right) = \sum_k a_{l, k} \dot{q}_k + \sum_{j} a_{j, l} \dot{q}_j.
+    \end{aligned}
+\end{equation}
+양변에 $\dot{q}_l$을 곱하고 $l$에 대해 시그마를 취하면
+\begin{equation}
+    \sum_l \dot{q}_l \frac{\partial T}{\partial \dot{q}_l} = \sum_{k, l} a_{l, k} \dot{q}_k \dot{q}_l + \sum_{j, l} a_{j, l} \dot{q}_j \dot{q}_l.
+\end{equation}
+여전히 $j, k, l$은 더미 변수이므로 서로 바꾸어 써도 된다. 따라서
+\begin{equation}
+    \sum_l \dot{q}_l \frac{\partial T}{\partial \dot{q}_l} = 2 \sum_{j, k} a_{j, k} \dot{q}_j \dot{q}_k = 2T \label{eq:6.74}
+\end{equation}
+를 얻는다. 이 식은 사실 $n$차 동차함수\footnote{다변수함수 중 $f(tx_1, tx_2, tx_3, \dots , tx_k) = t^n f(x_1, x_2, x_3, \dots, x_k)$을 만족하는 함수를 $n$차 동차함수(homogeneous function)라고 한다.} $f(x_k)$에 대한 오일러 정리
+\begin{equation}
+    \sum_k x_k \frac{\partial f}{\partial x_k} =nf
+\end{equation}
+의 특수한 경우다. 식 \ref{eq:6.74}의 결과는 앞으로 유용하게 쓰일 것이니 기억해 놓자.
 
-\section{대칭성과 보존 정리 (Symmetry and Conservation Theorems)}
+\section{대칭성과 보존 법칙 (Symmetry and Conservation Theorems)}
+대칭성과 보존 법칙 사이의 관계는 물리학의 가장 아름다운 주제 중 하나이다. 먼저 좌표 변환에 대해 설명하며 이 마법 같은 이야기를 시작하자.
+
+좌표 변환은 두 가지 방식으로 생각할 수 있다. 첫 번째 방식은 수동적 변환이다. 계에 대해선 아무것도 하지 않고 단지 눈금만 바꾼다. 예를 들어 좌표 변환 $x \to x+1$은 $x$축 위의 모든 눈금을 지우고 원래 눈금에 1을 더한 값을 새로 쓴 것과 같다.
+
+반면 두 번째 방식은 능동적 변환이다. 이 방식은 점에 이름표를 다시 붙일 필요가 없다. 변환식 $x \to x+1$은 계의 모든 입자를 오른쪽으로 한 단위 움직이라는 지시 사항으로 해석된다. 우리는 능동적인 관점을 채택한다. 즉, 만약 물체를 움직이면 계의 라그랑지안이 변할 수도 있다.
+
+이제 대칭성을 설명할 수 있게 되었다. 대칭성이란 라그랑지안의 값을 바꾸지 않는 능동적 좌표 변환이다. 수식으로 쓰면 $q \to q+\delta$에 대해 $\delta \mathcal{L} =0$인 것이다. 여기서 이미 우리는 한 가지 결론을 얻는다. 라그랑지안은 $q$와 $\dot{q}$의 함수이므로, 라그랑지안이 바뀌지 않기 위해선 $\dot{q}$가 변하지 않아야 한다. 따라서 우리는 $\delta$만큼의 이동이 시간에 의존하지 않음을 가정할 것이다.
+
+좌표에 어떤 상수를 더해 공간에서 계를 움직이는 대칭성을 병진 대칭성이라고 한다. 병진 대칭성의 한 예를 들어 보자. 두 개의 좌표 $q_1, q_2$를 가진 계의 라그랑지안이 다음과 같은 경우를 생각한다.
+\begin{equation}
+    \mathcal{L} = \frac{1}{2}m(\dot{q}_1^2 + \dot{q}_2^2) - U(q_1 - q_2)
+\end{equation}
+우리는 오일러-라그랑주 방정식을 풂으로써 이 계의 운동 방정식을 얻을 수 있다. 그 결과는 다음과 같다.
+\begin{equation}
+    \begin{aligned}
+    m \ddot{q}_1 &= \dot{p}_1 = -U'(q_1 - q_2) \\
+    m \ddot{q}_2 &= \dot{p}_2 = U'(q_1 - q_2) 
+    \end{aligned}
+\end{equation}
+이때 $U'$은 $U$의 도함수이다. 우리는 이로부터 간단히 $p_1+p_2$가 보존됨을 알 수 있다. 사실 이건 가장 기본적인 선운동량 보존이다. 비슷한 방식으로, 계의 라그랑지안이
+\begin{equation}
+    \mathcal{L} = \frac{1}{2}m(\dot{q}_1^2 + \dot{q}_2^2) - U(aq_1 - bq_2)
+\end{equation}
+인 경우 우리는 $bp_1+ap_2$가 보존됨을 알 수 있다. 첫 번째 예시의 좌표 변환은
+\begin{equation}
+    q_1 \to q_1 + \delta, \quad q_2 \to a_2 + \delta \label{eq:6.79}
+\end{equation}
+이고, 두 번째 예시의 좌표 변환은
+\begin{equation}
+    q_1 \to q_1 - b \delta, \quad q_2 \to q_2 + a \delta \label{eq:6.80}
+\end{equation}
+였다. 궁금하다면 직접 확인해 보라.
+
+만약 더 복잡한 대칭성이 주어진다면 어떨까? $xy$ 평면 위에서 움직이는 입자를 상상해 보자. 계의 라그랑지안은
+\begin{equation}
+    \mathcal{L} = \frac{1}{2}m(\dot{x}^2 + \dot{y}^2) - U(x^2 + y^2)
+\end{equation}
+이다. 이 계가 대칭성을 갖고 있다는 사실은 자명하다. 원점에 대해 각도 $\theta$만큼 돌렸을 때 라그랑지안이 바뀔 리 없기 때문이다. 회전 변환은 다음과 같이 표현된다.
+\begin{equation}
+    \begin{aligned}
+    x \to x\cos{\theta} + y\sin{\theta} \\
+    y \to -x\sin{\theta} + y\cos{\theta} 
+    \end{aligned}
+    \label{eq:6.82}
+\end{equation}
+이제 병진 변환과 회전 변환을 본질적으로 설명해 보자. 우리는 변환을 아주 작은 단계, 정확히는 무한히 작은 단계로 진행할 수 있다. 예를 들어 $x \to x+1$은 $x \to x+\delta$를 무한 번 반복한 것이다. 여기서 $\delta$는 무한소를 나타낸다. 회전에 대해서도 똑같다. 우리는 무한소의 각도 $\delta$만큼을 회전할 수 있고, 그 과정을 반복함으로써 결국 유한한 회전을 구축할 수 있다.
+
+유한한 변환은 무한소 변환으로 만들어지기 때문에 대칭성을 조사할 때 우리는 무한소 변환을 생각해도 좋다. 각도 $\theta$를 무한소 각도 $\delta$로 바꾸었을 때 식 \ref{eq:6.82}에선 무슨 일이 일어나는가? 테일러 전개로 1차항까지 취하면 $\cos{\delta} = 1, \sin{\delta} = \delta$이므로
+\begin{equation}
+    x \to x + y\delta, \quad y \to y-x\delta \label{eq:6.83}
+\end{equation}
+이다. 식 \ref{eq:6.83}을 시간에 대해 미분하면 우리는 $\dot{x}$와 $\dot{y}$의 변환 역시 얻을 수 있다. 라그랑지안은 이 변환에 대해 불변이다. 암산이 될 것이다.\footnote{구태여 수식으로 설명하진 않겠지만, 만약 계의 퍼텐셜 에너지가 원점으로부터의 거리 $x^2+y^2$의 함수가 아니라면 라그랑지안은 무한소 회전에 대해 불변이 아니다. 공간이 등방적이지 않으므로 특정 방향의 $\theta$가 생기고, 이것이 대칭성을 깨뜨리기 때문이다.}
+
+대칭성에 관한 꽤 복잡한 예시까지 보았으므로 일반화할 차례다. 일반화 좌표 $q_i$를 무한소 변환하면, 원래 좌표와 변환된 좌표의 차이 $\delta q_i$는
+\begin{equation}
+    \delta q_i = f_i \delta \label{eq:6.84}
+\end{equation}
+를 만족한다. 즉, 각각의 좌표는 $\delta$에 비례하는 양만큼 이동하지만 비례 인수 $f_i$가 곱해진다. 식 \ref{eq:6.83}로 예를 들면 $f_1 = y, f_2 = -x$이다. 이제 우리는 대칭성의 의미를 더 자세히 알 수 있게 되었다. 라그랑지안의 1차 변분 $\delta \mathcal{L}$이 0이면 된다.
+
+식 \ref{eq:6.84}의 변환이 라그랑지안을 어떻게 바꾸는지 실제로 계산해 보자. $\delta \mathcal{L}$은 다음과 같다.
+\begin{equation}
+    \delta \mathcal{L} = \sum_i \left( \frac{\partial \mathcal{L}}{\partial q_i} \delta q_i + \frac{\partial \mathcal{L}}{\partial \dot{q}_i} \delta \dot{q}_i \right)
+\end{equation}
+이는 식 \ref{eq:5.78}과 동일한 형태이다. 약간의 마법을 부려 보자. 시그마 안의 두 번째 항은 일반화 운동량 $p_i$이다. 첫 번째 항은 무엇일까? 계가 오일러-라그랑주 방정식을 따른다면
+\begin{equation}
+    \frac{\partial \mathcal{L}}{\partial q_i} = \dot{p}_i \label{eq:6.86}
+\end{equation}
+이 성립한다. 이제 $\delta \mathcal{L}$은
+\begin{equation}
+    \delta \mathcal{L} = \sum_i \left( p_i \delta \dot{q}_i + \dot{p}_i \delta q_i\right) = \frac{\mathrm{d}}{\mathrm{d}t} \left( \sum_i p_i \delta q_i\right) = \delta \frac{\mathrm{d}}{\mathrm{d}t} \left( \sum_i p_i f_i \right)
+\end{equation}
+가 된다. 만약 계가 대칭성을 가지고 있다면
+\begin{equation}
+    Q = \sum_i p_i f_i \label{eq:6.88}
+\end{equation}
+라는 물리량은 보존된다. 이것이 바로 보존 법칙이다.
+
+보존 법칙 식 \ref{eq:6.88}을 앞선 예시들에 적용해 보자. 먼저 식 \ref{eq:6.79}의 병진 변환은 $f_1 = f_2 = 1$을 만족한다. 이를 바탕으로 $Q$를 구하면 정확히 $p_1 + p_2$가 나온다. 하지만 이는 더 심오한 사실을 의미한다. 어떤 입자들의 계에 대해, 만약 그 라그랑지안이 모든 입자의 위치를 동시에 이동시키더라도 불변이면 운동량은 보존된다. 이것은 운동량의 각 공간 성분에 개별적으로 적용할 수 있다. 따라서 공간에서 모든 것을 동시에 이동시켜도 물리 법칙은 변하지 않는다.
+
+다음으로 식 \ref{eq:6.83}의 회전 변환은 $Q = yp_x - xp_y$가 보존된다는 사실을 말한다. 이 양은 무엇일까? 각운동량 $\mathbf{L} = \mathbf{p} \times \mathbf{v}$을 고려하면 $Q$의 크기는 각운동량과 같음을 알 수 있다. 병진 변환과 마찬가지로 이는 더 심오한 사실을 의미한다. 어떤 입자들의 계에 대해, 만약 그 라그랑지안이 모든 입자의 위치를 동시에 원점에 대해 회전시키더라도 불변이면 각운동량은 보존된다. 
+
+결국 이 절에서 얻어야 할 설명은 다음과 같다. 공간이 균일(homogeneous)하다면 운동량이 보존되고, 공간이 등방적(isotropic)이라면 각운동량이 보존된다. 이는 \textbf{뇌터 정리(Noether's theorem)}라는 대칭성과 보존 법칙을 연결하는 정리로 연결된다.
 
 \newpage
 % Chapter 7 시작
 \chapter{해밀턴 역학 (Hamiltonian Mechanics)}
 
-\section{정준 방정식 (Canonical Equations)}
-
+\section{정준 운동 방정식 (Canonical Equations of Motion)}
+%일반화 운동량 짧게 서술%
+%시간 병진 대칭으로부터 해밀토니안 유도%
+%정준 운동 방정식, 혹은 해밀턴 운동 방정식 유도%
+%순환 좌표, 여기서 문제 많이 (이중 진자)%
 \section{르장드르 변환 (Legendre Transformation)}
-
+라그랑지안과 해밀토니안은 서로 르장드르 변환의 관계에 있다.
 \section{해밀턴-야코비 방정식 (Hamilton-Jacobi Equations)}
 
 \section{푸아송 괄호 (Poisson's Brackets)}
 
-\section{위상 공간 유체와 리우빌 정리 (Phase Space Fluids and Liouville's Theorem)}
+\section{위상 공간과 리우빌 정리 (Phase Space and Liouville's Theorem)}
 
 \section{비리얼 정리 (Virial Theorem)}
 

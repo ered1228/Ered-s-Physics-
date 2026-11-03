@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.10.17)  2 NOV 2026 23:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.10.17)  4 NOV 2026 00:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1121,7 +1121,7 @@ l.96
       [1
 
 ] [2] [3] [4] [5] [6] [7]
-<figure1.1.jpg, id=554, 1165.35374pt x 787.94376pt>
+<figure1.1.jpg, id=553, 1165.35374pt x 787.94376pt>
 File: figure1.1.jpg Graphic file (type jpg)
 <use figure1.1.jpg>
 Package pdftex.def Info: figure1.1.jpg  used on input line 300.
@@ -1129,55 +1129,55 @@ Package pdftex.def Info: figure1.1.jpg  used on input line 300.
  [8] [9 <./figure1.1.jpg>] [10
 
 ] [11] [12]
-<figure2.1.jpg, id=610, 977.6525pt x 447.6725pt>
+<figure2.1.jpg, id=609, 977.6525pt x 447.6725pt>
 File: figure2.1.jpg Graphic file (type jpg)
 <use figure2.1.jpg>
 Package pdftex.def Info: figure2.1.jpg  used on input line 469.
 (pdftex.def)             Requested size: 250.95221pt x 114.90979pt.
  [13]
-<figure2.2.jpg, id=626, 2878.755pt x 2055.68pt>
+<figure2.2.jpg, id=625, 2878.755pt x 2055.68pt>
 File: figure2.2.jpg Graphic file (type jpg)
 <use figure2.2.jpg>
 Package pdftex.def Info: figure2.2.jpg  used on input line 479.
 (pdftex.def)             Requested size: 250.95221pt x 179.2003pt.
  [14 <./figure2.1.jpg> <./figure2.2.jpg>] [15]
-<figure2.3.jpg, id=655, 876.27374pt x 574.145pt>
+<figure2.3.jpg, id=654, 876.27374pt x 574.145pt>
 File: figure2.3.jpg Graphic file (type jpg)
 <use figure2.3.jpg>
 Package pdftex.def Info: figure2.3.jpg  used on input line 539.
 (pdftex.def)             Requested size: 250.95221pt x 164.4215pt.
  [16] [17 <./figure2.3.jpg>] [18]
-<figure2.4.jpg, id=694, 925.4575pt x 732.7375pt>
+<figure2.4.jpg, id=692, 925.4575pt x 732.7375pt>
 File: figure2.4.jpg Graphic file (type jpg)
 <use figure2.4.jpg>
 Package pdftex.def Info: figure2.4.jpg  used on input line 598.
 (pdftex.def)             Requested size: 250.95221pt x 198.6915pt.
  [19 <./figure2.4.jpg>]
-<figure2.5.jpg, id=713, 713.66624pt x 426.59375pt>
+<figure2.5.jpg, id=712, 713.66624pt x 426.59375pt>
 File: figure2.5.jpg Graphic file (type jpg)
 <use figure2.5.jpg>
 Package pdftex.def Info: figure2.5.jpg  used on input line 622.
 (pdftex.def)             Requested size: 250.95221pt x 150.00653pt.
  [20 <./figure2.5.jpg>] [21] [22]
-<figure2.6.jpg, id=756, 1006.76125pt x 687.56876pt>
+<figure2.6.jpg, id=755, 1006.76125pt x 687.56876pt>
 File: figure2.6.jpg Graphic file (type jpg)
 <use figure2.6.jpg>
 Package pdftex.def Info: figure2.6.jpg  used on input line 711.
 (pdftex.def)             Requested size: 250.95221pt x 171.38817pt.
  [23] [24 <./figure2.6.jpg>] [25] [26] [27]
-<figure2.7.jpg, id=823, 995.72pt x 577.15625pt>
+<figure2.7.jpg, id=822, 995.72pt x 577.15625pt>
 File: figure2.7.jpg Graphic file (type jpg)
 <use figure2.7.jpg>
 Package pdftex.def Info: figure2.7.jpg  used on input line 860.
 (pdftex.def)             Requested size: 179.25237pt x 103.90125pt.
  [28]
-<figure2.8.jpg, id=837, 905.3825pt x 899.36pt>
+<figure2.8.jpg, id=836, 905.3825pt x 899.36pt>
 File: figure2.8.jpg Graphic file (type jpg)
 <use figure2.8.jpg>
 Package pdftex.def Info: figure2.8.jpg  used on input line 867.
 (pdftex.def)             Requested size: 250.95221pt x 249.2803pt.
  [29 <./figure2.7.jpg> <./figure2.8.jpg>] [30] [31] [32]
-<figure2.9.jpg, id=883, 943.525pt x 677.53125pt>
+<figure2.9.jpg, id=882, 943.525pt x 677.53125pt>
 File: figure2.9.jpg Graphic file (type jpg)
 <use figure2.9.jpg>
 Package pdftex.def Info: figure2.9.jpg  used on input line 992.
@@ -1185,25 +1185,25 @@ Package pdftex.def Info: figure2.9.jpg  used on input line 992.
  [33 <./figure2.9.jpg>] [34] [35] [36
 
 ] [37] [38] [39] [40] [41] [42] [43] [44]
-<figure3.1.jpg, id=1020, 790.955pt x 793.96625pt>
+<figure3.1.jpg, id=1019, 790.955pt x 793.96625pt>
 File: figure3.1.jpg Graphic file (type jpg)
 <use figure3.1.jpg>
 Package pdftex.def Info: figure3.1.jpg  used on input line 1329.
 (pdftex.def)             Requested size: 179.25237pt x 179.93098pt.
  [45 <./figure3.1.jpg>]
-<figure3.2.jpg, id=1036, 1084.05pt x 817.0525pt>
+<figure3.2.jpg, id=1035, 1084.05pt x 817.0525pt>
 File: figure3.2.jpg Graphic file (type jpg)
 <use figure3.2.jpg>
 Package pdftex.def Info: figure3.2.jpg  used on input line 1344.
 (pdftex.def)             Requested size: 358.50473pt x 270.20164pt.
  [46 <./figure3.2.jpg>]
-<figure3.3.jpg, id=1047, 758.835pt x 758.835pt>
+<figure3.3.jpg, id=1046, 758.835pt x 758.835pt>
 File: figure3.3.jpg Graphic file (type jpg)
 <use figure3.3.jpg>
 Package pdftex.def Info: figure3.3.jpg  used on input line 1380.
 (pdftex.def)             Requested size: 143.39969pt x 143.39278pt.
  [47]
-<figure3.4.jpg, id=1056, 958.58125pt x 1703.36375pt>
+<figure3.4.jpg, id=1055, 958.58125pt x 1703.36375pt>
 File: figure3.4.jpg Graphic file (type jpg)
 <use figure3.4.jpg>
 Package pdftex.def Info: figure3.4.jpg  used on input line 1395.
@@ -1211,25 +1211,25 @@ Package pdftex.def Info: figure3.4.jpg  used on input line 1395.
  [48 <./figure3.3.jpg>] [49 <./figure3.4.jpg>] [50
 
 ]
-<figure4.1.jpg, id=1084, 3854.4pt x 2168.1pt>
+<figure4.1.jpg, id=1083, 3854.4pt x 2168.1pt>
 File: figure4.1.jpg Graphic file (type jpg)
 <use figure4.1.jpg>
 Package pdftex.def Info: figure4.1.jpg  used on input line 1439.
 (pdftex.def)             Requested size: 215.10503pt x 120.9827pt.
  [51 <./figure4.1.jpg>] [52] [53]
-<figure4.2.jpg, id=1124, 963.6pt x 538.01pt>
+<figure4.2.jpg, id=1123, 963.6pt x 538.01pt>
 File: figure4.2.jpg Graphic file (type jpg)
 <use figure4.2.jpg>
 Package pdftex.def Info: figure4.2.jpg  used on input line 1538.
 (pdftex.def)             Requested size: 250.95221pt x 140.10916pt.
  [54 <./figure4.2.jpg>]
-<figure4.3.jpg, id=1135, 730.73pt x 812.03375pt>
+<figure4.3.jpg, id=1134, 730.73pt x 812.03375pt>
 File: figure4.3.jpg Graphic file (type jpg)
 <use figure4.3.jpg>
 Package pdftex.def Info: figure4.3.jpg  used on input line 1573.
 (pdftex.def)             Requested size: 215.10503pt x 239.03986pt.
  [55 <./figure4.3.jpg>]
-<figure4.4.jpg, id=1149, 1003.75pt x 992.70876pt>
+<figure4.4.jpg, id=1148, 1003.75pt x 992.70876pt>
 File: figure4.4.jpg Graphic file (type jpg)
 <use figure4.4.jpg>
 Package pdftex.def Info: figure4.4.jpg  used on input line 1607.
@@ -1237,18 +1237,18 @@ Package pdftex.def Info: figure4.4.jpg  used on input line 1607.
  [56] [57 <./figure4.4.jpg>] [58] [59] [60] [61
 
 ]
-<figure5.1.jpg, id=1213, 1084.05pt x 617.30624pt>
+<figure5.1.jpg, id=1212, 1084.05pt x 617.30624pt>
 File: figure5.1.jpg Graphic file (type jpg)
 <use figure5.1.jpg>
 Package pdftex.def Info: figure5.1.jpg  used on input line 1748.
 (pdftex.def)             Requested size: 250.95221pt x 142.90054pt.
  [62] [63 <./figure5.1.jpg>] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78
 
-] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91
+] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97
 
-] [92
+] [98
 
-] [93
+] [99
 
 ]
 \tf@toc=\write6
@@ -1260,21 +1260,21 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `ECMmain.out' has not changed.
-(rerunfilecheck)             Checksum: 02EB028EAD91B766390C921F75B02DE1;12432.
+(rerunfilecheck)             Checksum: C9F22E516B1D02F0137FEB248EAE6D49;12450.
  ) 
 Here is how much of TeX's memory you used:
- 34443 strings out of 467525
- 663874 string characters out of 5423208
- 1137591 words of memory out of 5000000
- 61923 multiletter control sequences out of 15000+600000
- 694414 words of font info for 270 fonts, out of 8000000 for 9000
+ 34492 strings out of 467525
+ 664395 string characters out of 5423208
+ 1139139 words of memory out of 5000000
+ 61938 multiletter control sequences out of 15000+600000
+ 694120 words of font info for 269 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  112i,17n,121p,1495b,647s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd4.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbac.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbad.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbae.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb0.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb1.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb2.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb3.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb4.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb5.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbba.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbb.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbc.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbd.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbe.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc0.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc1.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc2.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc5.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcc.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcd.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbce.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcf.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd0.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd1.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd2.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd3.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd4.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd5.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmaf.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbf.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc3.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc4.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmca.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcb.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcd.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb>
-Output written on ECMmain.pdf (97 pages, 7210613 bytes).
+Output written on ECMmain.pdf (103 pages, 7246471 bytes).
 PDF statistics:
- 2054 PDF objects out of 2073 (max. 8388607)
- 1716 compressed objects within 18 object streams
- 609 named destinations out of 1000 (max. 500000)
+ 2127 PDF objects out of 2487 (max. 8388607)
+ 1783 compressed objects within 18 object streams
+ 644 named destinations out of 1000 (max. 500000)
  860 words of extra memory for PDF output out of 10000 (max. 10000000)
 

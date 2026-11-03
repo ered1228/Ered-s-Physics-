@@ -41,14 +41,14 @@
 \contentsline {section}{\numberline {6.4}구속력 (Forces of Constraint)}{83}{section.6.4}%
 \contentsline {section}{\numberline {6.5}뉴턴 역학과의 동등성 (Equivalence of Lagrange's and Newton's Mechanics)}{87}{section.6.5}%
 \contentsline {section}{\numberline {6.6}라그랑주 역학의 정수 (Essence of Lagrangian Mechanics)}{90}{section.6.6}%
-\contentsline {section}{\numberline {6.7}운동 에너지 정리 (Kinetic Energy Theorem)}{90}{section.6.7}%
-\contentsline {section}{\numberline {6.8}대칭성과 보존 정리 (Symmetry and Conservation Theorems)}{90}{section.6.8}%
-\contentsline {chapter}{\chapternumberline {제\,7\,장}해밀턴 역학 (Hamiltonian Mechanics)}{91}{chapter.7}%
-\contentsline {section}{\numberline {7.1}정준 방정식 (Canonical Equations)}{91}{section.7.1}%
-\contentsline {section}{\numberline {7.2}르장드르 변환 (Legendre Transformation)}{91}{section.7.2}%
-\contentsline {section}{\numberline {7.3}해밀턴-야코비 방정식 (Hamilton-Jacobi Equations)}{91}{section.7.3}%
-\contentsline {section}{\numberline {7.4}푸아송 괄호 (Poisson's Brackets)}{91}{section.7.4}%
-\contentsline {section}{\numberline {7.5}위상 공간 유체와 리우빌 정리 (Phase Space Fluids and Liouville's Theorem)}{91}{section.7.5}%
-\contentsline {section}{\numberline {7.6}비리얼 정리 (Virial Theorem)}{91}{section.7.6}%
-\contentsline {chapter}{\chapternumberline {제\,8\,장}중심력과 천체역학 (Central Forces and Celestial Mechanics)}{92}{chapter.8}%
-\contentsline {chapter}{\chapternumberline {제\,9\,장}입자계의 운동역학 (Dynamics of a System of Particles)}{93}{chapter.9}%
+\contentsline {section}{\numberline {6.7}운동 에너지 정리 (Kinetic Energy Theorem)}{92}{section.6.7}%
+\contentsline {section}{\numberline {6.8}대칭성과 보존 법칙 (Symmetry and Conservation Theorems)}{93}{section.6.8}%
+\contentsline {chapter}{\chapternumberline {제\,7\,장}해밀턴 역학 (Hamiltonian Mechanics)}{97}{chapter.7}%
+\contentsline {section}{\numberline {7.1}정준 운동 방정식 (Canonical Equations of Motion)}{97}{section.7.1}%
+\contentsline {section}{\numberline {7.2}르장드르 변환 (Legendre Transformation)}{97}{section.7.2}%
+\contentsline {section}{\numberline {7.3}해밀턴-야코비 방정식 (Hamilton-Jacobi Equations)}{97}{section.7.3}%
+\contentsline {section}{\numberline {7.4}푸아송 괄호 (Poisson's Brackets)}{97}{section.7.4}%
+\contentsline {section}{\numberline {7.5}위상 공간과 리우빌 정리 (Phase Space and Liouville's Theorem)}{97}{section.7.5}%
+\contentsline {section}{\numberline {7.6}비리얼 정리 (Virial Theorem)}{97}{section.7.6}%
+\contentsline {chapter}{\chapternumberline {제\,8\,장}중심력과 천체역학 (Central Forces and Celestial Mechanics)}{98}{chapter.8}%
+\contentsline {chapter}{\chapternumberline {제\,9\,장}입자계의 운동역학 (Dynamics of a System of Particles)}{99}{chapter.9}%
